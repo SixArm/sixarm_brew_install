@@ -88,7 +88,7 @@ brew cask fetch   nmap
 brew cask fetch   node
 brew cask install omnifocus
 brew cask install omnigraffle
-brew cask install openoffice
+brew cask install libreoffice
 brew cask fetch   pandoc
 brew cask install pandora-one
 brew cask install postgres
