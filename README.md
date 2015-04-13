@@ -1,4 +1,4 @@
-# SixArm.com<br>brew install packages we like
+# SixArm.com »<br>brew install packages we like
 
 These are our team's "brew install" commands for a typical Mac OSX computer.
 
