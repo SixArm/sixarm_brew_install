@@ -119,6 +119,10 @@ ls -1 /usr/local/Cellar/emacs/*/bin/emacs |
 tail -1 |
 xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
 
+# Emacs editor for Spacemacs
+brew tap railwaycat/emacsmacport
+brew install emacs-mac
+
 # Vim editor.
 brew install vim
 
