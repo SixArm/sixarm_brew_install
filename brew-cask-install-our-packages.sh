@@ -57,6 +57,7 @@ brew cask install filezilla
 brew cask install firefox
 brew cask install flash
 brew cask install flux
+brew cask install freeplane
 brew cask install ganttproject
 brew cask install gimp
 brew cask install github
