@@ -1,3 +1,9 @@
+## Environment-Related
+
+# Code Climate Platform for all static analysic
+brew tap codeclimate/formulae && brew install codeclimate
+
+## Languages
 
 # Closure programming language compiler; compare `lisp`, `java`.
 brew install closure-compiler

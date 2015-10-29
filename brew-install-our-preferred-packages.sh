@@ -126,7 +126,13 @@ brew install emacs-mac
 # Vim editor.
 brew install vim
 
+# Enca - detect and convert encoding of text files
+brew install enca
+
 ## Parsing
+
+# Pandoc converts among various formats, such as Markdown and HTML
+brew install pandoc
 
 # Libxml2 is the XML C parser and toolkit.
 brew install libxml2
