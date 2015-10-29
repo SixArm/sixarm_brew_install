@@ -11,6 +11,9 @@ brew install erlang
 # Go programming language by Google; compare `C`.
 brew install go
 
+# Haskell
+brew install ghc cabal-install
+
 # Leiningen automates Clojure projects.
 brew install leiningen
 
