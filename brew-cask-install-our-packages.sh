@@ -81,6 +81,7 @@ brew cask install iterm2
 brew cask fetch   java
 brew cask install joinme
 brew cask install kindle
+brew cask install krita
 brew cask install launchy
 brew cask install macvim
 brew cask install mysqlworkbench
