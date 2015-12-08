@@ -148,6 +148,9 @@ brew install ansible
 # ag is "the silver searcher" search tool, like an optimized grep.
 brew link autoconf automake && brew install ag
 
+# sift is like grep, plus faster and with more features.
+brew install sift
+
 # jq is a lightweight and flexible command-line JSON processor.
 brew install jq
 
