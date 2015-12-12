@@ -72,6 +72,10 @@ brew install ruby
 # Tool to install various implementations of Ruby.
 brew install ruby-install
 
+## Swift
+
+# Tool to help with Swift style and conventions.
+brew install swiftlint
 
 ## Database-Related
 
