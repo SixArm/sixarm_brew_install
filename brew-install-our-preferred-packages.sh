@@ -28,9 +28,6 @@ brew install pkg-config && brew link pkg-config && brew install tmux
 # Functions for use by applications that allow users to edit command lines while typing.
 brew install readline
 
-# Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
-brew install mobile-shell
-
 ## Shells
 
 # Bash is the Bourne Again SHell. Bash is an sh-compatible shell.
@@ -47,6 +44,12 @@ brew install pkg-config && brew link pkg-config && brew install tmux
 
 # Zsh is a shell designed for interactive use.
 brew install zsh
+
+# Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
+brew install mobile-shell
+
+# Parallel SSH
+brew install pssh
 
 ## Fetchers
 
