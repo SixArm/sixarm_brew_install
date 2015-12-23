@@ -100,7 +100,7 @@ brew install mongodb
 # PostgreSQL database.
 brew install postgresql
 
-# Redis database, esp. for key-value cache and store, and a data structure server.
+# Redis database, esp. for key-value cache and store, and data structures.
 brew install redis
 
 # Riak open-source distributed database.
