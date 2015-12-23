@@ -231,9 +231,6 @@ brew install nagios
 # TBD
 brew install nginx
 
-# RabbitMQ enterprise message queue based on the emerging AMQP standard.
-brew install rabbitmq
-
 # Siege is an http load testing and benchmarking utility.
 brew install siege
 

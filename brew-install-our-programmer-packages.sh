@@ -6,6 +6,9 @@ brew tap codeclimate/formulae && brew install codeclimate
 # Command-line programs for manipulating fonts
 brew install lcdf-typetools
 
+# GNU libtool is a generic library support script.
+brew install libtool
+
 ## Languages
 
 # Closure programming language compiler; compare `lisp`, `java`.
@@ -91,14 +94,17 @@ brew install couchdb
 # Hadoop database.
 brew install hadoop
 
-# MySQL database.
-brew install mysql
+# MariaDB database
+brew install mariadb
 
 # MongoDB database.
 brew install mongodb
 
 # PostgreSQL database.
 brew install postgresql
+
+# RabbitMQ enterprise message queue based on the emerging AMQP standard.
+brew install rabbitmq
 
 # Redis database, esp. for key-value cache and store, and data structures.
 brew install redis
