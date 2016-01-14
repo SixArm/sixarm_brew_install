@@ -114,6 +114,7 @@ brew cask fetch   teamviewer
 brew cask install testflight
 brew cask install thunderbird
 brew cask install transmission
+brew cask install transmit
 brew cask install todoist
 brew cask install todos
 brew cask fetch   unity-web-player
