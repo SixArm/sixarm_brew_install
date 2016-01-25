@@ -88,6 +88,7 @@ brew cask install mysqlworkbench
 brew cask fetch   netbeans
 brew cask fetch   nmap
 brew cask fetch   node
+brew cask install obs
 brew cask install omnifocus
 brew cask install omnigraffle
 brew cask install libreoffice
