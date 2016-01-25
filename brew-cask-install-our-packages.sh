@@ -18,7 +18,7 @@ brew cask install sublime-text
 
 # Install applications alphabetically.
 # If an application requires a password to install,
-# then we use fetch, then install in the next section.
+# then we use fetch and we will install it manually.
 
 brew cask install adium
 brew cask fetch   adobe-air
@@ -88,7 +88,7 @@ brew cask install mysqlworkbench
 brew cask fetch   netbeans
 brew cask fetch   nmap
 brew cask fetch   node
-brew cask install obs
+brew cask fetch   obs
 brew cask install omnifocus
 brew cask install omnigraffle
 brew cask install libreoffice
