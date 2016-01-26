@@ -9,16 +9,19 @@ brew install caskroom/cask/brew-cask
 
 # Install applicaitons that are most important to us,
 # so we can start working on the machine if we want.
-# We have these applications list in the next section too,
-# for copmleteness, so fee free to edit these.
+#
+# We list these applications in the next section too,
+# for completeness, so feel free to edit these.
 
 brew cask install iterm2
 brew cask install firefox
 brew cask install sublime-text
 
-# Install applications alphabetically.
+# Install our applications alphabetically.
+#
 # If an application requires a password to install,
 # then we use fetch and we will install it manually.
+# See the end section of this file for details.
 
 brew cask install adium
 brew cask fetch   adobe-air
@@ -127,3 +130,23 @@ brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
 brew cask fetch   zoomus
+
+echo "These need to be installated manually because they need administration permission."
+echo "brew cask install adobe-air"
+echo "brew cask install adobe-reader"
+echo "brew cask install electric-sheep"
+echo "brew cask install google-hangouts"
+echo "brew cask install heroku-toolbelt"
+echo "brew cask install inky"
+echo "brew cask install java"
+echo "brew cask install netbeans"
+echo "brew cask install nmap"
+echo "brew cask install node"
+echo "brew cask install obs"
+echo "brew cask install pandoc"
+echo "brew cask install prey"
+echo "brew cask install r"
+echo "brew cask install teamviewer"
+echo "brew cask install unity-web-player"
+echo "brew cask install unity3d"
+echo "brew cask install zoomus"
