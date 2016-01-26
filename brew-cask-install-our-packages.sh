@@ -20,8 +20,10 @@ brew cask install sublime-text
 # Install our applications alphabetically.
 #
 # If an application requires a password to install,
-# then we use fetch and we will install it manually.
-# See the end section of this file for details.
+# then we use fetch and we will install it by running:
+#
+#     brew-cash-install-our-packages-with-passwords.sh
+#
 
 brew cask install adium
 brew cask fetch   adobe-air
@@ -130,23 +132,3 @@ brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
 brew cask fetch   zoomus
-
-echo "These need to be installated manually because they need administration permission."
-echo "brew cask install adobe-air"
-echo "brew cask install adobe-reader"
-echo "brew cask install electric-sheep"
-echo "brew cask install google-hangouts"
-echo "brew cask install heroku-toolbelt"
-echo "brew cask install inky"
-echo "brew cask install java"
-echo "brew cask install netbeans"
-echo "brew cask install nmap"
-echo "brew cask install node"
-echo "brew cask install obs"
-echo "brew cask install pandoc"
-echo "brew cask install prey"
-echo "brew cask install r"
-echo "brew cask install teamviewer"
-echo "brew cask install unity-web-player"
-echo "brew cask install unity3d"
-echo "brew cask install zoomus"

@@ -17,6 +17,7 @@ brew cask install java
 brew cask install netbeans
 brew cask install nmap
 brew cask install node
+brew cask install obs
 brew cask install pandoc
 brew cask install prey
 brew cask install r
