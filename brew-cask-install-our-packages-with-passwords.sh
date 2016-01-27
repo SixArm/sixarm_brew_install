@@ -10,6 +10,7 @@
 brew cask install adobe-air
 brew cask install adobe-reader
 brew cask install electric-sheep
+brew cask install flip4mac
 brew cask install google-hangouts
 brew cask install heroku-toolbelt
 brew cask install inky
