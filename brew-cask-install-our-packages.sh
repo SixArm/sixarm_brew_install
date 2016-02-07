@@ -98,6 +98,7 @@ brew cask install iterm2
 brew cask fetch   java
 brew cask install joinme
 brew cask install jumpcut
+brew cask fetch   karabiner
 brew cask install kindle
 brew cask install krita
 brew cask install launchy
@@ -124,6 +125,7 @@ brew cask install rdio
 brew cask install rescuetime
 brew cask install rubymine
 brew cask install screenhero
+brew cask fetch   seil
 brew cask install sequel-pro
 brew cask install sequential
 brew cask install shortcat

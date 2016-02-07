@@ -15,6 +15,7 @@ brew cask install google-hangouts
 brew cask install heroku-toolbelt
 brew cask install inky
 brew cask install java
+brew cask install karabiner
 brew cask install netbeans
 brew cask install nmap
 brew cask install node
@@ -22,6 +23,7 @@ brew cask install obs
 brew cask install pandoc
 brew cask install prey
 brew cask install r
+brew cask install seil
 brew cask install teamviewer
 brew cask install unity-web-player
 brew cask install unity3d
