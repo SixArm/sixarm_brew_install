@@ -49,6 +49,7 @@ brew cask install bittorrent-sync
 brew cask install blender
 brew cask install box-sync
 brew cask install brain-workshop
+brew cask install cactus
 brew cask install caffeine
 brew cask install calibre
 brew cask install ccleaner
