@@ -37,6 +37,7 @@ brew cask install android-file-transfer
 brew cask install anki
 brew cask install appcleaner
 brew cask install arq
+brew cask install atext
 brew cask install atom
 brew cask install audacity
 brew cask install backblaze-downloader
@@ -121,6 +122,7 @@ brew cask install postgres
 brew cask fetch   prey
 brew cask install prezi
 brew cask install pupil
+brew cask install quicksilver
 brew cask fetch   r
 brew cask install rdio
 brew cask install rescuetime
