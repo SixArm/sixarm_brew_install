@@ -327,6 +327,7 @@ brew install httperf
 brew install ical-buddy
 brew install jmeter
 brew install jpeg
+brew isntall libdnet
 brew install lzo
 brew install rarian
 brew install pixman
