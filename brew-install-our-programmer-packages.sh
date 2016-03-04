@@ -9,6 +9,11 @@ brew install lcdf-typetools
 # GNU libtool is a generic library support script.
 brew install libtool
 
+## Shell
+
+# GUI for rsync
+brew install grsync
+
 ## Languages
 
 # Closure programming language compiler; compare `lisp`, `java`.
