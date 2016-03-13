@@ -14,6 +14,9 @@ brew install libtool
 # GUI for rsync
 brew install grsync
 
+# Shell script syntax check linter
+brew install shellcheck
+
 ## Languages
 
 # Closure programming language compiler; compare `lisp`, `java`.
