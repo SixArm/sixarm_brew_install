@@ -74,6 +74,9 @@ brew install unrar
 # Wget is a free software package for retrieving files using HTTP and FTP.
 brew install wget
 
+# Syncthing is open source file sharing
+brew install syncthing
+
 ## Version Control
 
 # CVS is a version control system.
