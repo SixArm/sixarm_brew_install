@@ -208,8 +208,8 @@ brew install unison
 # xclip is a command line interface to the X11 clipboard.
 brew install xclip
 
-# TBD
-brew install xmstarlet
+# XML converter
+brew install xmlstarlet
 
 ## Server-Related
 
@@ -1525,7 +1525,6 @@ brew install xapian
 # brew install xml2rfc
 # brew install xmlformat
 # brew install xmlrpc-c
-# brew install xmlstarlet
 # brew install xmlto
 # brew install xmltoman
 # brew install xmoto
