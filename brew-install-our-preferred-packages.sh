@@ -294,7 +294,6 @@ brew install dpkg
 brew install fakeroot
 brew install findutils
 brew install geoip
-brew install gnu-arch
 brew install gnu-barcode
 brew install gnu-getopt
 brew install gnu-indent
