@@ -282,7 +282,6 @@ brew install autojump
 brew install base64
 brew install bcrypt
 brew install bind
-brew install bindfs
 brew install binutils
 brew install bison
 brew install bogofilter
