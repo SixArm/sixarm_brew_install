@@ -299,7 +299,6 @@ brew install gnu-getopt
 brew install gnu-indent
 brew install gnu-prolog
 brew install gnu-sed --default-names
-brew install gnu-shogi
 brew install gnu-smalltalk
 brew install gnu-tar
 brew install gnu-time
