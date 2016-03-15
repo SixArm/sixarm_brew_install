@@ -175,9 +175,6 @@ brew install html-xml-utils
 # TBD
 brew install lynx
 
-# Meld is a visual diff and merge tool targeted at developers.
-brew install meld
-
 # Most is a powerful paging program; compare `less` and `more`.
 brew install most
 
