@@ -117,19 +117,11 @@ brew install sqlite && brew link sqlite && brew install subversion
 # GNU Aspell is a free open source spell checker; compare `lspell`.
 brew install aspell --with-lang=en
 
-# Emacs editor.
-sudo rm /usr/bin/emacs &&
-sudo rm -rf /usr/share/emacs &&
-brew install emacs --cocoa --srgb --use-git-head --HEAD &&
-ls -1 /usr/local/Cellar/emacs/*/bin/emacs |
-tail -1 |
-xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
-
 # Emacs editor for Spacemacs
 brew tap railwaycat/emacsmacport
 brew install emacs-mac
 
-# Vim editor.
+# Vim editor
 brew install vim
 
 # Enca - detect and convert encoding of text files
