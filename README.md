@@ -1,26 +1,26 @@
 # SixArm.com »<br>brew install our favorite formulas
 
-These are our team's "brew install" commands for a typical Mac OSX computer.
+These are our team's `brew install` commands that we use to set up a typical Mac OS X computer.
 
 ## Contents
 
 Two scripts that install our base pacakages that are suitable for all our users:
 
-  * `brew-install-our-base-packages-automatic.sh`: This script is for all our Mac OSX users; the script is fully automatic i.e. it runs without any passwords, interruptions, blockers, etc.
-  * `brew-install-our-base-packages-manual.sh`: This script is for all our Mac OSX users; the script needs passwords to install packages, and other kinds of human intervention and problem solving.
+  * `brew-install-our-base-formulas-automatic.sh`: this script is automatic; it runs without passwords, prompts, blockers, etc.
+  * `brew-install-our-base-formulas-manual.sh`: this script is manual; it needs passwords, has prompts, may block, etc.
 
-Two scripts that install our tech packages that are suitable for our programmers,:
+Two scripts that install our tech formulas that are suitable for our programmers,:
 
-  * `brew-install-our-tech-packages-automatic.sh`: This script is for all our Mac OSX users; the script is fully automatic i.e. it runs without any passwords, interruptions, blockers, etc.
-  * `brew-install-our-tech-packages-manual.sh`: This script is for all our Mac OSX users; the script needs passwords to install packages, and other kinds of human intervention and problem solving.
+  * `brew-install-our-tech-formulas-automatic.sh`: this script is automatic; it runs without passwords, prompts, blockers, etc.
+  * `brew-install-our-tech-formulas-manual.sh`: this script is manual; it needs passwords, has prompts, may block, etc.
 
-We like to handle the tech packages in their own files because they tend to be larger downloads, larger packages, and take more time to install.
+We like to handle the base formulas independently of the tech formulas, because the tech  to be larger downloads, larger formulas, and take more time to install.
 
 ## Usage
 
-Before you begin:
+Before you begin, you may want to install two large Mac applications, that other applications depend upon.
 
-  * Install XCode
+  * Install XCode: go the Mac app store and choose XCode.
   * Install XQuartz: https://xquartz.macosforge.org
 
 To run the scripts:
@@ -30,11 +30,11 @@ To run the scripts:
 
 ## More about brew pacakges
 
-To learn what a package does, visit the brew formulas site:
+To learn what a formula does, visit the brew formulas site:
 
   * http://brewformulas.org/
 
-To learn what a specific package does, there's a URL for each package, such as:
+To learn what a specific formula does, there's a URL for each formula, such as:
 
   * http://brewformulas.org/foo
 
