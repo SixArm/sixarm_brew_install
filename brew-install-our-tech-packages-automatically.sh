@@ -139,3 +139,7 @@ brew install mysql && brew install postgresql && brew install sphinx
 
 # SQLite database: self-contained, serverless, zero-configuration, transactional engine.
 brew install sqlite && brew link sqlite
+
+## Cleanup - this is always the last thing to do
+
+brew cleanup

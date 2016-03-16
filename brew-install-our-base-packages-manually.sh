@@ -31,3 +31,7 @@ brew cask install unity3d
 brew cask install vagrant
 brew cask install wireshark
 brew cask install zoomus
+
+## Cleanup - this is always the last thing to do
+
+brew cleanup

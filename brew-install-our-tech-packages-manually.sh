@@ -15,3 +15,7 @@ brew install emacs --cocoa --srgb --use-git-head --HEAD &&
 ls -1 /usr/local/Cellar/emacs/*/bin/emacs |
 tail -1 |
 xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
+
+## Cleanup - this is always the last thing to do
+
+brew cleanup
