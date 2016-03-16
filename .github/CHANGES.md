@@ -1,5 +1,6 @@
 # Changes
 
+* 2016-03-16 5.0.1 EOL brew-cask
 * 2016-03-16 5.0.0 Upgrades for OS X 10.11, improved names, more help
 * 2016-03-15 4.4.5 EOL shogi
 * 2016-03-15 4.4.4 EOL gnu-arch

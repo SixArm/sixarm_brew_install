@@ -21,7 +21,6 @@
 ##
 
 # Install our favorite terminal app, tet editor, and web browser.
-brew install caskroom/cask/brew-cask
 brew cask install iterm2
 brew cask install vim
 brew cask install firefox
