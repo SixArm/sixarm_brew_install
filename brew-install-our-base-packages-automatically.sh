@@ -374,7 +374,7 @@ brew install xapian
 ##
 # Dupes
 #
-# These formulae duplicate software provided by OS X,
+# These formulas duplicate software provided by OS X,
 # though may provide more recent or bugfix versions.
 #
 # We prefer to keep these explicitly listed in `/dupes`
@@ -429,7 +429,7 @@ brew install homebrew/dupes/zlib
 
 ##
 # Brew cask enables installing typical Mac OS X applications.
-# For example, these formulae may download a `*.dmg` file,
+# For example, these formulas may download a `*.dmg` file,
 # then unpack it into the correct `/Applications` directory,
 # and possibly configure the app with typical settings.
 ##

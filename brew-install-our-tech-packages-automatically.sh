@@ -15,7 +15,7 @@
 ## Environment-Related
 
 # Code Climate Platform for all static analysic
-brew tap codeclimate/formulae && brew install codeclimate
+brew tap codeclimate/formulas && brew install codeclimate
 
 # Command-line programs for manipulating fonts
 brew install lcdf-typetools

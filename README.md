@@ -1,4 +1,4 @@
-# SixArm.com »<br>brew install our favorite formulae packages
+# SixArm.com »<br>brew install our favorite formulas
 
 These are our team's "brew install" commands for a typical Mac OSX computer.
 
