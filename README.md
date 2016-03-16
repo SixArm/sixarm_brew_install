@@ -7,6 +7,27 @@ Before we begin:
   * Install XCode
   * Install XQuartz: https://xquartz.macosforge.org
 
+## What this repo contains
+
+Two scripts that install our base pacakages that are suitable for all our users:
+
+  * `brew-install-our-base-packages-automatic.sh`: This script is for all our Mac OSX users; the script is fully automatic i.e. it runs without any passwords, interruptions, blockers, etc.
+  * `brew-install-our-base-packages-manual.sh`: This script is for all our Mac OSX users; the script needs passwords to install packages, and other kinds of human intervention and problem solving.
+
+Two scripts that install our tech packages that are suitable for our programmers,:
+
+  * `brew-install-our-tech-packages-automatic.sh`: This script is for all our Mac OSX users; the script is fully automatic i.e. it runs without any passwords, interruptions, blockers, etc.
+  * `brew-install-our-tech-packages-manual.sh`: This script is for all our Mac OSX users; the script needs passwords to install packages, and other kinds of human intervention and problem solving.
+
+We like to handle the tech packages in their own files because they tend to be larger downloads, larger packages, and take more time to install.
+
+## To run these
+
+  * Clone the repo, then use your shell to run any of the scripts.
+  * Or simply view the raw text of any of the scripts, and copy/paste into your shell.
+
+## More about brew pacakges
+
 To learn what a package does, visit the brew formulas site:
 
   * http://brewformulas.org/
@@ -71,3 +92,12 @@ Applications with origin TBD:
   * Wunderlist.app
   * Xcode.app
   * xScan.app
+
+## Tracking
+
+  * Package: sixarm_brew_install
+  * Version: 5.0.0
+  * Created: 2015-04-13
+  * Updated: 2016-03-16
+  * License: GPL
+  * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)

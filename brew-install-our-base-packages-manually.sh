@@ -1,11 +1,12 @@
-# Install applications that require a password.
+#!/bin/sh
 #
-# Typically we fetch these applications in the
-# file `brew-cask-install-our-packages.sh` because
-# we want this file to run quickly for a developer.
+# brew-install-our-base-packages-manually.sh
 #
-# If you edit this file, please update the
-# file `brew-cask-install-our-packages.sh` too.
+# Use Homebrew to install our favorite typical-user packages
+# that may need to be installed manually because of passwords,
+# or moving files, or more-complex issues that need a human.
+#
+##
 
 brew cask install adobe-air
 brew cask install adobe-reader
