@@ -143,6 +143,9 @@ brew install sqlite && brew link sqlite
 # Toad database manager by Dell
 brew cask install toad
 
+# Valentina Studio database manager
+brew cask install valentina-studio
+
 ## Cleanup - this is always the last thing to do
 
 brew cleanup
