@@ -140,6 +140,9 @@ brew install mysql && brew install postgresql && brew install sphinx
 # SQLite database: self-contained, serverless, zero-configuration, transactional engine.
 brew install sqlite && brew link sqlite
 
+# Toad database manager by Dell
+brew cask install toad
+
 ## Cleanup - this is always the last thing to do
 
 brew cleanup
