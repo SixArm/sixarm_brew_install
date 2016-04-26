@@ -146,6 +146,14 @@ brew cask install toad
 # Valentina Studio database manager
 brew cask install valentina-studio
 
+## Mac programming
+
+# Alcatraz Xcode plugin manager
+brew cask install alcatraz
+
+# Realm browser for the Realm embedded database
+brew cask install realm-browser
+
 ## Cleanup - this is always the last thing to do
 
 brew cleanup
