@@ -100,6 +100,11 @@ brew install ruby
 # Tool to install various implementations of Ruby.
 brew install ruby-install
 
+## Markdown
+
+# MacDown simple markdown editor
+brew cask install macdown
+
 ## Swift
 
 # Tool to help with Swift style and conventions.
