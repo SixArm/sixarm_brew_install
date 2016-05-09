@@ -6,15 +6,10 @@ These are our team's `brew install` commands that we use to set up a typical Mac
 
 Two scripts that install our base pacakages that are suitable for all our users:
 
-  * `brew-install-our-base-formulas-automatic.sh`: this runs without passwords, or prompts, or blockers.
-  * `brew-install-our-base-formulas-manual.sh`: this needs passwords, has prompts, and may block.
+  * `brew-install-our-base.sh`: this runs smoothly, without passwords, or prompts, or blockers.
+  * `brew-install-our-base-manual.sh`: this needs passwords, has prompts, and may block.
 
-Two scripts that install our tech formulas that are suitable for our programmers,:
-
-  * `brew-install-our-tech-formulas-automatic.sh`: this runs without passwords, prompts, blockers, etc.
-  * `brew-install-our-tech-formulas-manual.sh`: this script is manual; it needs passwords, has prompts, may block, etc.
-
-We like to handle the base formulas independently of the tech formulas, because the tech  to be larger downloads, larger formulas, and take more time to install.
+The rest of the scripts install specialized formulas that are suitable for our programmers, and tend to have larger downloads and longer installations.
 
 ## Usage
 
@@ -41,8 +36,8 @@ To learn what a specific formula does, there's a URL for each formula, such as:
 ## Tracking
 
   * Package: sixarm_brew_install
-  * Version: 5.0.0
+  * Version: 6.0.0
   * Created: 2015-04-13
-  * Updated: 2016-03-16
+  * Updated: 2016-05-08
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)

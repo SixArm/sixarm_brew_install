@@ -549,4 +549,3 @@ brew cask install vlc
 ## Cleanup - this is always the last thing to do
 
 brew cleanup
-
