@@ -36,8 +36,8 @@ To learn what a specific formula does, there's a URL for each formula, such as:
 ## Tracking
 
   * Package: sixarm_brew_install
-  * Version: 6.0.0
+  * Version: 7.0.0
   * Created: 2015-04-13
-  * Updated: 2016-05-08
+  * Updated: 2016-06-26
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)

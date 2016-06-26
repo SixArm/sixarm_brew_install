@@ -219,3 +219,38 @@ brew install sourcekitten
 
 # Alcatraz Xcode plugin manager
 brew cask install alcatraz
+
+##
+# Vendors
+#
+# We use tech tooling from a variety of vendors.
+# Currently, this section lists our JetBrains tooling,
+# because it's what we use most often and our teams like
+# to have all of these. Customize as you like for your teams.
+##
+
+## JetBrains
+
+# AppCode Swift IDE
+brew cask install appcode
+
+# CLion C/C++ IDE
+brew cask install clion
+
+# DataGrip SQL IDE
+brew cask install datagrip
+
+# IntelliJ Java IDE
+brew cask install intellij-idea
+
+# PhpStorm PHP IDE
+brew cask install phpstorm
+
+# PyCharm PHP IDE
+brew cask install pycharm
+
+# RubyMine Ruby IDE
+brew cask install rubymine
+
+# WebStorm IDE
+brew cask install webstorm
