@@ -1,7 +1,5 @@
 #!/bin/sh
 #
-# brew-install-our-base-packages-automatically.sh
-#
 # Use Homebrew to install our favorite typical-user packages
 # that can be installed fully automatically i.e. unattended;
 # these packages do not ask for passwords, do not have any
@@ -20,10 +18,22 @@
 # We also install these in their respective sections too for completeness.
 ##
 
-# Install our favorite terminal app, tet editor, and web browser.
+# Our favorite terminal
 brew cask install iterm2
+
+# Our favorite editor
 brew cask install vim
+
+# Our favorite web browser
 brew cask install firefox
+
+## Passwords
+
+# 1password is a password manager
+brew cask install 1password
+
+# LastPass is a password manager
+brew cask install lastpass
 
 ## Libraries
 
