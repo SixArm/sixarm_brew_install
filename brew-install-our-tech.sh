@@ -119,7 +119,7 @@ brew cask install staruml
 # Programming Languages
 #
 # This section installs many programming languages:
-# Clojure, Elixir, Erlang, Go, Haskell, JavaScript,
+# Clojure, Elixir, Erlang, Go, Haskell, Java, JavaScript,
 # Perl, Python, R, Ruby, Scala, Swift, and tooling.
 ##
 
@@ -150,6 +150,14 @@ brew install go
 
 # Cabal is a package manager for Haskell
 brew install ghc cabal-install
+
+## Java
+
+# Gradle is a Java build tool
+brew install gradle
+
+# Maven is a Java build tool
+brew install maven
 
 ## JavaScript
 
