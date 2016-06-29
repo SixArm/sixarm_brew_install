@@ -159,6 +159,9 @@ brew install gradle
 # Maven is a Java build tool
 brew install maven
 
+# Spring Tool Suite is an Eclipse IDE for developing apps
+brew cask install sts
+
 ## JavaScript
 
 # Node.js is a JavaScript platform for building fast, scalable network app.
