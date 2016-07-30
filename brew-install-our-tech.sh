@@ -303,6 +303,11 @@ brew cask install testflight
 # you don't want to use or purchase, because this will save disk space.
 ##
 
+## Paw.cloud
+
+# Paw HTTP API testing too
+brew cask install paw
+
 ## JetBrains
 
 # AppCode Swift IDE
