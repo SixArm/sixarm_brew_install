@@ -119,9 +119,13 @@ brew install cvs
 
 # Git is a free and open source distributed version control system.
 brew install git
+brew cask install git
 
 # TBD
 brew install git-cola
+
+# Git extras: utilities including summary, repl, population, etc.
+brew cask install git-extras
 
 # Git extensions to provide high-level operations for Git Flow branching model.
 brew install git-flow
