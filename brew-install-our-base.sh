@@ -152,6 +152,12 @@ brew install sqlite && brew link sqlite && brew install subversion
 # GNU Aspell is a free open source spell checker; compare `lspell`.
 brew install aspell --with-lang=en
 
+# Emacs editor
+brew cask install emacs
+
+# Sublime text editor
+brew cask install sublime-text
+
 # Emacs editor for Spacemacs
 brew tap railwaycat/emacsmacport
 brew install emacs-mac
@@ -552,9 +558,6 @@ brew cask install duet
 brew cask install easysimbl
 
 # TDB
-brew cask install emacs
-
-# TDB
 brew cask install evernote
 
 # FileZilla FTP client
@@ -715,9 +718,6 @@ brew cask install sourcetree
 
 # Spotify music player
 brew cask install spotify
-
-# Sublime text editor
-brew cask install sublime-text
 
 # TBD
 brew cask install superduper
