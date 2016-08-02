@@ -55,6 +55,9 @@ brew cask install wireshark --with-qt
 # Wireshark-chmodbft enables regular users to capture network packets.
 brew cask install wireshark-chmodbpf
 
+# Charles web debugging proxy
+brew cask install charles
+
 ##
 # Virtual environments
 ##
