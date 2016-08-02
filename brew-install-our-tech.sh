@@ -324,3 +324,17 @@ brew cask install rubymine
 
 # WebStorm IDE
 brew cask install webstorm
+
+## OmniGroup
+
+# To Do list
+brew cask install omnifocus
+
+# Diagramming
+brew cask install omnigraffle
+
+# Project planning
+brew cask install omniplan
+
+# Outliner
+brew cask install omnioutline
