@@ -254,6 +254,9 @@ brew install scala
 
 ## Swift
 
+# Carthage Xcode project dependency manager.
+brew install carthage
+
 # Tool to help with Swift style and conventions.
 brew install swiftlint
 
