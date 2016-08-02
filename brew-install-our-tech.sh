@@ -49,8 +49,8 @@ brew cask install tunnelblick
 
 ## Networking
 
-# Wireshark network monitoring.
-brew cask install wireshark
+# Wireshark network monitoring, with the QT GUI.
+brew cask install wireshark --with-qt
 
 # Wireshark-chmodbft enables regular users to capture network packets.
 brew cask install wireshark-chmodbpf
