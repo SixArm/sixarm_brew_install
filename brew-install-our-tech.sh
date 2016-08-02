@@ -31,6 +31,9 @@ brew install grsync
 # Shell script syntax check linter
 brew install shellcheck
 
+# BATS: Bash Automated Testing System
+brew cask install bats
+
 ## Languages
 
 # Apache Maven is a software project management and comprehension tool.
