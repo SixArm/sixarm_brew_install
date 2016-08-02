@@ -126,16 +126,19 @@ brew install mysql; brew install postgresql; brew install sphinx
 
 ## Database managers
 
-# MySQL Workbench database editor
+# MySQL Workbench database editor.
 brew cask install mysqlworkbench
 
-# Sequel Pro database management application
+# Realm browser mobile database editor.
+brew cask install realm-browser
+
+# Sequel Pro database management application.
 brew cask install sequel-pro
 
-# Toad database manager by Dell
+# Toad database manager by Dell.
 brew cask install toad
 
-# Valentina Studio database manager
+# Valentina Studio database manager.
 brew cask install valentina-studio
 
 ##
