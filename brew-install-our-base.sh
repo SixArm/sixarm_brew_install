@@ -159,8 +159,14 @@ brew install emacs-mac
 # Vim editor
 brew install vim
 
+# MacVIM editor
+brew cask install macvim
+
 # Enca - detect and convert encoding of text files
 brew install enca
+
+# Atom editor by GitHub
+brew cask install atom
 
 ## Parsing
 
@@ -471,9 +477,6 @@ brew cask install arq
 brew cask install atext
 
 # TDB
-brew cask install atom
-
-# TDB
 brew cask install audacity
 
 # TDB
@@ -643,9 +646,6 @@ brew cask install launchy
 
 # TDB
 brew cask install little-snitch
-
-# MacVIM editor
-brew cask install macvim
 
 # OmniFocus task manager, best with the paid service.
 brew cask install omnifocus
