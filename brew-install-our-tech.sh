@@ -291,12 +291,16 @@ brew install taylor
 brew cask install testflight
 
 ##
-# Vendors
+# Paid software
 #
-# We use tech tooling from a variety of vendors.
-# Currently, this section lists our JetBrains tooling,
-# because it's what we use most often and our teams like
-# to have all of these. Customize as you like for your teams.
+#   * JetBrains programmer tools
+#   * OmniGroup project management tools
+#
+# This section installs the tools, which are free trial versions.
+# We pay for licenses for all these for all our teammates.
+#
+# You may want to customize this section by deleting any items that
+# you don't want to use or purchase, because this will save disk space.
 ##
 
 ## JetBrains
