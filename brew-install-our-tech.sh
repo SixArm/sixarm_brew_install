@@ -194,6 +194,9 @@ brew install ghc cabal-install
 
 ## Java
 
+# Java programming language
+brew install java
+
 # Gradle is a Java build tool
 brew install gradle
 
