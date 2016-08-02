@@ -115,6 +115,9 @@ brew install mysql; brew install postgresql; brew install sphinx
 
 ## Database managers
 
+# MySQL Workbench database editor
+brew cask install mysqlworkbench
+
 # Sequel Pro database management application
 brew cask install sequel-pro
 
