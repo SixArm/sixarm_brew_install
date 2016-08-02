@@ -45,6 +45,19 @@ brew cask install realm-browser
 brew cask install tunnelblick
 
 ##
+# Virtual environments
+##
+
+# Docker assembles applications from components.
+brew cask install docker
+
+# Vagrant creates and configures portable development environments.
+brew cask install vagrant
+
+# VirtualBox creates and configures portable development environments, by Oracle.
+brew cask install virtualbox
+
+##
 # Databases
 #
 # This section installs many databases and database tooling:
