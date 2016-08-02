@@ -84,7 +84,7 @@ brew install couchdb
 # Hadoop database.
 brew install hadoop
 
-# MariaDB database
+# MariaDB database; prefer this over MySQL.
 brew install mariadb
 
 # MongoDB database.
@@ -114,6 +114,9 @@ brew install sqlite && brew link sqlite
 brew install mysql; brew install postgresql; brew install sphinx
 
 ## Database managers
+
+# Sequel Pro database management application
+brew cask install sequel-pro
 
 # Toad database manager by Dell
 brew cask install toad
