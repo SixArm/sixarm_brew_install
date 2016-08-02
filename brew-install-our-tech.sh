@@ -44,6 +44,14 @@ brew cask install realm-browser
 # Tunnelblick remote access VPN
 brew cask install tunnelblick
 
+## Networking
+
+# Wireshark network monitoring.
+brew cask install wireshark
+
+# Wireshark-chmodbft enables regular users to capture network packets.
+brew cask install wireshark-chmodbpf
+
 ##
 # Virtual environments
 ##
@@ -260,6 +268,9 @@ brew install sourcekitten
 
 # Alcatraz Xcode plugin manager
 brew cask install alcatraz
+
+# Testflight Apple iOS testing service 
+brew cask install testflight
 
 ##
 # Vendors
