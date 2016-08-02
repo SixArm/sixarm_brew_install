@@ -261,25 +261,28 @@ brew install ruby-install
 # Scala programming language, that runs on top of the JVM.
 brew install scala
 
-## Swift
+## iOS, Objective-C, Swift
 
-# Carthage Xcode project dependency manager.
-brew install carthage
-
-# Tool to help with Swift style and conventions.
-brew install swiftlint
+# Alcatraz Xcode plugin manager
+brew cask install alcatraz
 
 # Appium test automation framework
 brew cask install appium
 
-# Taylor is a Swift code quality metrics tool.
-brew install taylor
+# Carthage Xcode project dependency manager.
+brew install carthage
+
+# Command-line application launcher for the iOS Simulator
+brew cask install ios-sim
+
+# Tool to help with Swift style and conventions.
+brew install swiftlint
 
 # SourceKitten attaches to SourceKit AST.
 brew install sourcekitten
 
-# Alcatraz Xcode plugin manager
-brew cask install alcatraz
+# Taylor is a Swift code quality metrics tool.
+brew install taylor
 
 # Testflight Apple iOS testing service 
 brew cask install testflight
