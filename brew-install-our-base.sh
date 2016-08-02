@@ -86,6 +86,10 @@ brew install mobile-shell
 # Parallel SSH
 brew install pssh
 
+# PCRE: Perl-compatible regular expressions, for better searching.
+brew install pcre
+brew install pcre++
+
 ## Fetchers
 
 # Carthage is a simple, decentralized dependency manager for Cocoa
@@ -1394,8 +1398,6 @@ brew cask install vlc
 # brew install pbzip2
 # brew install pcal
 # brew install pcb
-# brew install pcre
-# brew install pcre++
 # brew install pdal
 # brew install pdf2image
 # brew install pdf2json
