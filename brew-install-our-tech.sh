@@ -111,7 +111,7 @@ brew install sqlite && brew link sqlite
 ## Database searchers
 
 # Sphinx search engine.
-brew install mysql && brew install postgresql && brew install sphinx
+brew install mysql; brew install postgresql; brew install sphinx
 
 ## Database managers
 
