@@ -440,117 +440,313 @@ brew install homebrew/dupes/zlib
 # and possibly configure the app with typical settings.
 ##
 
+# Adium is an open source multi-protocol instant messaging client.
 brew cask install adium
+
+# TDB
 brew cask install adventure
+
+# TDB
 brew cask install alfred
+
+# TDB
 brew cask install amazon-cloud-drive
+
+# TDB
 brew cask install amazon-music
+
+# TDB
 brew cask install android-file-transfer
+
+# TDB
 brew cask install anki
+
+# AppCleaner thoroughly uninstalls unwanted apps.
 brew cask install appcleaner
+
+# TDB
 brew cask install arq
+
+# TDB
 brew cask install atext
+
+# TDB
 brew cask install atom
+
+# TDB
 brew cask install audacity
+
+# TDB
 brew cask install backblaze-downloader
+
+# TDB
 brew cask install backuploupe
+
+# TDB
 brew cask install balsamiq-mockups
+
+# TDB
 brew cask install bartender
+
+# TDB
 brew cask install basecamp
+
+# TDB
 brew cask install beacon-scanner
+
+# TDB
 brew cask install bittorrent-sync
+
+# TDB
 brew cask install blender
+
+# TDB
 brew cask install box-sync
+
+# TDB
 brew cask install brain-workshop
+
+# TDB
 brew cask install cactus
+
+# TDB
 brew cask install caffeine
+
+# TDB
 brew cask install calibre
+
+# TDB
 brew cask install ccleaner
+
+# TDB
 brew cask install cheatsheet
+
+# TDB
 brew cask install chromecast
+
+# TDB
 brew cask install coconutbattery
+
+# TDB
 brew cask install codekit
+
+# TDB
 brew cask install commandq
+
+# TDB
 brew cask install dash
+
+# TDB
 brew cask install doxygen
+
+# TDB
 brew cask install dropbox
+
+# TDB
 brew cask install duet
+
+# TDB
 brew cask install easysimbl
-brew cask install eclipse-ide
-brew cask install eclipse-platform
+
+# TDB
 brew cask install emacs
+
+# TDB
 brew cask install evernote
+
+# FileZilla FTP client
 brew cask install filezilla
+
+# Firefox web browser
 brew cask install firefox
+
+# Flash multimedia player
 brew cask install flash
+
+# TDB
 brew cask install fluid
+
+# Flux dims the screen colors for better nighttime visibility.
 brew cask install flux
+
+# TDB
 brew cask install freeplane
+
+# TDB
 brew cask install ganttproject
+
+# TDB
 brew cask install gfxcardstatus
+
+# Gimp image editor, similar to Photoshop
 brew cask install gimp
+
+# GitHub source code social sharing
 brew cask install github
+
+# TDB
 brew cask install gitx
+
+# Google Chrome web browser
 brew cask install google-chrome
+
+# Google Drive cloud file storage
 brew cask install google-drive
+
+# Google Earth viewer for satellite imagery and maps.
 brew cask install google-earth
+
+# Google Music plays songs, especially with a subscription service.
 brew cask install google-music
+
+# TDB
 brew cask install google-notifier
+
+# TDB
 brew cask install google-quick-search-box
+
+# TDB
 brew cask install google-refine
+
+# TDB
 brew cask install google-web-designer
+
+# TDB
 brew cask install grooveshark
+
+# TDB
 brew cask install harvest
+
+# TDB
 brew cask install hockey
+
+# TDB
 brew cask install hipchat
+
+# TDB
 brew cask install iterm2
+
+# TDB
 brew cask install joinme
+
+# TDB
 brew cask install jumpcut
+
+# Kindle book reader by Amazon
 brew cask install kindle
+
+# TDB
 brew cask install krita
+
+# TDB
 brew cask install launchy
+
+# TDB
 brew cask install little-snitch
+
+# MacVIM editor
 brew cask install macvim
-brew cask install mysqlworkbench
+
+# OmniFocus task manager, best with the paid service.
 brew cask install omnifocus
+
+# OmniGraffle diagram drawing editor.
 brew cask install omnigraffle
+
+# LibreOffice is a large editor for text, spreadsheets, diagrams.
 brew cask install libreoffice
+
+# TBD
+brew cask install mysqlworkbench
+
+# TBD
 brew cask install p4merge
+
+# Pandora music player
 brew cask install pandora-one
+
+# TBD
 brew cask install paparazzi
-brew cask install postgres
+
+# Prezi slide show presentation.
 brew cask install prezi
+
+# TBD
 brew cask install pupil
+
+# TBD
 brew cask install quicksilver
+
+# Rdio music player.
 brew cask install rdio
+
+# TBD
 brew cask install rescuetime
-brew cask install rubymine
+
+# Screenhero screen sharing by Slack.
 brew cask install screenhero
-brew cask install sequel-pro
+
+# TBD
 brew cask install sequential
+
+# TBD
 brew cask install shortcat
+
+# Silverlight video player by Microsoft.
 brew cask install silverlight
+
+# TBD
 brew cask install skitch
+
+# Skype calling with video and phone calls.
 brew cask install skype
+
+# Slack chat client
 brew cask install slack
+
+# TBD
 brew cask install sleep-monitor
+
+# Sophos anti virus
 brew cask install sophos-anti-virus-home-edition
+
+# TBD
 brew cask install sourcetree
+
+# Spotify music player
 brew cask install spotify
+
+# Sublime text editor
 brew cask install sublime-text
+
+# TBD
 brew cask install superduper
+
+# Synergy screen sharing utility
 brew cask install synergy
-brew cask install testflight
+
+# TBD
 brew cask install thisservice
+
+# Thunderbird email client by Mozilla.
 brew cask install thunderbird
+
+# Transmission bittorrent client.
 brew cask install transmission
+
+# TBD
 brew cask install transmit
+
+# TBD
 brew cask install todoist
+
+# TBD
 brew cask install todos
+
+# Unison file synchronizer.
 brew cask install unison
-brew cask install wireshark
-brew cask install vagrant
-brew cask install virtualbox
+
+# VLC media player
 brew cask install vlc
 
 ##
