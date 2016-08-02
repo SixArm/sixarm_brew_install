@@ -93,6 +93,9 @@ brew install mongodb
 # PostgreSQL database.
 brew install postgresql
 
+# Postgres App provides a Mac-friendly database.
+brew cask install postgres
+
 # RabbitMQ enterprise message queue based on the emerging AMQP standard.
 brew install rabbitmq
 
