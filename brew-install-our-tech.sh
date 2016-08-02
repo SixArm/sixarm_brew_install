@@ -273,7 +273,7 @@ brew cask install appium
 brew install carthage
 
 # Command-line application launcher for the iOS Simulator
-brew cask install ios-sim
+brew install ios-sim
 
 # Tool to help with Swift style and conventions.
 brew install swiftlint
