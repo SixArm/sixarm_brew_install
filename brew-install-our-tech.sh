@@ -58,6 +58,14 @@ brew cask install vagrant
 brew cask install virtualbox
 
 ##
+# Editors
+##
+
+# Eclipse is a large programming IDE built on Java
+brew cask install eclipse-ide
+brew cask install eclipse-platform
+
+##
 # Databases
 #
 # This section installs many databases and database tooling:
