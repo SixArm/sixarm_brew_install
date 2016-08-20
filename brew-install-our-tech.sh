@@ -223,6 +223,9 @@ brew install phantomjs
 # V8 JavaScript Engine.
 brew install v8
 
+# JSON output using the shell
+brew install jo
+
 ## Perl
 
 # Perl programming language, esp. for systems administration.
