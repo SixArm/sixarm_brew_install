@@ -307,6 +307,7 @@ brew install ffmpeg
 brew install ffmpeg2theora
 brew install ffmpegthumbnailer
 brew install imagemagick
+brew install kindle
 brew install theora
 
 ## Font-Related
