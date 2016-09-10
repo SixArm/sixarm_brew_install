@@ -10,6 +10,16 @@
 # If you're using this file and you find any packages that
 # do not install automatically, please let us know by opening
 # an issue, or emailing us, or creating a pull request. Thanks!
+#
+# ## Link
+#
+# Some of the brew packages need to link to others.
+#
+#   * `brew link cmake` before mysql
+#   * `brew link cmake` before wireshark can be installed
+#   * `brew link cmake` before homebrew/science/opencv
+#   * `brew link pandoc` before shellcheck can be installed
+#
 ##
 
 ## Environment
@@ -29,7 +39,7 @@ brew install libtool
 brew install grsync
 
 # Shell script syntax check linter
-brew install shellcheck
+brew link pandoc; brew install shellcheck
 
 # BATS: Bash Automated Testing System
 brew cask install bats
@@ -50,7 +60,7 @@ brew cask install tunnelblick
 ## Networking
 
 # Wireshark network monitoring, with the QT GUI.
-brew cask install wireshark --with-qt
+brew link cmake; brew cask install wireshark --with-qt
 
 # Wireshark-chmodbft enables regular users to capture network packets.
 brew cask install wireshark-chmodbpf
@@ -125,12 +135,12 @@ brew install sqlite && brew link sqlite
 ## Database searchers
 
 # Sphinx search engine.
-brew install mysql; brew install postgresql; brew install sphinx
+brew link cmake; brew install mysql; brew install postgresql; brew install sphinx
 
 ## Database managers
 
 # MySQL Workbench database editor.
-brew cask install mysqlworkbench
+brew link cmake; brew cask install mysqlworkbench
 
 # Realm browser mobile database editor.
 brew cask install realm-browser
