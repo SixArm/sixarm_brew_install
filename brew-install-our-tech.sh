@@ -115,6 +115,9 @@ brew install mariadb
 brew install mongodb
 
 # PostgreSQL database.
+brew install postgres
+
+# PostgreSQL database.
 brew install postgresql
 
 # Postgres App provides a Mac-friendly database.
