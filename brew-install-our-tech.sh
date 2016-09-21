@@ -44,6 +44,9 @@ brew link pandoc; brew install shellcheck
 # BATS: Bash Automated Testing System
 brew cask install bats
 
+# Shuttle: simple SSH shortcut menu
+brew cask install shuttle
+
 ## Languages
 
 # Apache Maven is a software project management and comprehension tool.
