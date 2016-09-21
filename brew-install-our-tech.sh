@@ -47,6 +47,11 @@ brew cask install bats
 # Shuttle: simple SSH shortcut menu
 brew cask install shuttle
 
+## Versioning
+
+# SourceTree graphic client for git
+brew cask install sourcetree
+
 ## Languages
 
 # Apache Maven is a software project management and comprehension tool.
