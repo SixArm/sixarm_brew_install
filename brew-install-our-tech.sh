@@ -44,8 +44,13 @@ brew link pandoc; brew install shellcheck
 # BATS: Bash Automated Testing System
 brew cask install bats
 
+## Clients
+
 # Shuttle: simple SSH shortcut menu
 brew cask install shuttle
+
+# Fugu: a graphical shell for SSH and FTP.
+brew cask install fugu
 
 ## Versioning
 
