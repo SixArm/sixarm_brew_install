@@ -52,6 +52,9 @@ brew cask install shuttle
 # Fugu: a graphical shell for SSH and FTP.
 brew cask install fugu
 
+# Charles: enables a developer to view HTTP traffic.
+brew cask install charles
+
 ## Versioning
 
 # SourceTree graphic client for git
