@@ -22,7 +22,9 @@
 #
 ##
 
-## Environment
+##
+# Environment
+##
 
 # Code Climate Platform for all static analysic
 brew tap codeclimate/formulas && brew install codeclimate
@@ -33,7 +35,9 @@ brew install lcdf-typetools
 # GNU libtool is a generic library support script.
 brew install libtool
 
-## Shell
+##
+# Shell
+##
 
 # GUI for rsync
 brew install grsync
@@ -44,7 +48,9 @@ brew link pandoc; brew install shellcheck
 # BATS: Bash Automated Testing System
 brew cask install bats
 
-## Clients
+##
+# Clients
+##
 
 # Shuttle: simple SSH shortcut menu
 brew cask install shuttle
@@ -55,17 +61,23 @@ brew cask install fugu
 # Charles: enables a developer to view HTTP traffic.
 brew cask install charles
 
-## Versioning
+##
+# Versioning
+##
 
 # SourceTree graphic client for git
 brew cask install sourcetree
 
-## Languages
+##
+# Languages
+##
 
 # Apache Maven is a software project management and comprehension tool.
 brew install maven
 
-## Mac programming
+##
+# Mac programming
+##
 
 # Realm browser for the Realm embedded database
 brew cask install realm-browser
@@ -73,7 +85,9 @@ brew cask install realm-browser
 # Tunnelblick remote access VPN
 brew cask install tunnelblick
 
-## Networking
+##
+# Networking
+##
 
 # Wireshark network monitoring, with the QT GUI.
 brew link cmake; brew cask install wireshark --with-qt
@@ -104,6 +118,9 @@ brew cask install virtualbox
 # Eclipse is a large programming IDE built on Java
 brew cask install eclipse-ide
 brew cask install eclipse-platform
+
+# MacTex: LaTeX document preparation system with high-quality typesetting.
+brew cask install mactex
 
 ##
 # Databases
