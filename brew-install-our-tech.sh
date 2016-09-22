@@ -79,6 +79,9 @@ brew install maven
 # Mac programming
 ##
 
+# Dash documentation browser and code snippet manager
+brew cask install dash
+
 # Realm browser for the Realm embedded database
 brew cask install realm-browser
 
