@@ -161,6 +161,11 @@ brew install hg
 # Subversion version control system.
 brew install sqlite && brew link sqlite && brew install subversion
 
+## Utility-Related
+
+# Alfred: boost your efficiency with hotkeys, keywords, text expansion, etc.
+brew install alfred
+
 ## Editing-Related
 
 # GNU Aspell is a free open source spell checker; compare `lspell`.
@@ -187,17 +192,6 @@ brew install enca
 
 # Atom editor by GitHub
 brew cask install atom
-
-## Parsing
-
-# Pandoc converts among various formats, such as Markdown and HTML
-brew install pandoc
-
-# Libxml2 is the XML C parser and toolkit.
-brew install libxml2
-
-# Libxslt is the XSLT C library for the XML EXtensible Stylesheet Language.
-brew install libxslt
 
 ## Tools
 
@@ -261,19 +255,10 @@ brew install unison
 # xclip is a command line interface to the X11 clipboard.
 brew install xclip
 
-# XML converter
-brew install xmlstarlet
-
 ## Server-Related
 
 # Docker software containers to help distribute applications.
 brew install docker && brew install boot2docker
-
-# TBD
-brew install glassfish
-
-# Jetty provides a Java web server and javax.servlet container.
-brew install jetty
 
 # Monit is for managing and monitoring Unix systems.
 brew install monit
@@ -284,18 +269,8 @@ brew install nagios
 # TBD
 brew install nginx
 
-# Siege is an http load testing and benchmarking utility.
-brew install siege
-
-# Apache Tomcat implements Java Servlet and JavaServer Pages technologies.
-brew install tomcat
-
 # Varnish reverse-proxy web application accelerator.
 brew install varnish
-
-## Network-Related
-
-brew install wireshark
 
 ## Media-Related
 

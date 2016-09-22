@@ -101,6 +101,9 @@ brew cask install wireshark-chmodbpf
 # Charles web debugging proxy
 brew cask install charles
 
+# Siege is an http load testing and benchmarking utility.
+brew install siege
+
 ##
 # Virtual environments
 ##
@@ -201,6 +204,9 @@ brew cask install valentina-studio
 # Markdown tools, UML tools, XML tools, and similar.
 ##
 
+# Pandoc converts among various formats, such as Markdown and HTML
+brew install pandoc
+
 ## Markdown
 
 # MacDown simple markdown editor
@@ -210,6 +216,17 @@ brew cask install macdown
 
 # StarUML modeling tool
 brew cask install staruml
+
+## XML
+
+# XML converter
+brew install xmlstarlet
+
+# Libxml2 is the XML C parser and toolkit.
+brew install libxml2
+
+# Libxslt is the XSLT C library for the XML EXtensible Stylesheet Language.
+brew install libxslt
 
 ##
 # Programming Languages
@@ -260,6 +277,15 @@ brew install maven
 
 # Spring Tool Suite is an Eclipse IDE for developing apps
 brew cask install sts
+
+# Jetty provides a Java web server and javax.servlet container
+brew install jetty
+
+# Apache Tomcat implements Java Servlet and JavaServer Pages technologies.
+brew install tomcat
+
+# Glassfish application server.
+brew install glassfish
 
 ## JavaScript
 
@@ -357,7 +383,7 @@ brew cask install testflight
 
 ## Paw.cloud
 
-# Paw HTTP API testing too
+# Paw HTTP API testing tool
 brew cask install paw
 
 ## JetBrains
