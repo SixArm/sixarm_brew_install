@@ -198,17 +198,17 @@ brew cask install atom
 # Ansible is a simple way to automate apps and IT infrastructure.
 brew install ansible
 
-# ag is "the silver searcher" search tool; removed in favor of ripgrep.
-brew remove ag
-
 # ripgrep is text search; we prefer it over grep, ag, git grep, ucg, pt, sift.
 brew install https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/brew/ripgrep.rb
 
-# sift is like grep, plus faster and with more features.
-brew install sift
-
 # jq is a lightweight and flexible command-line JSON processor.
 brew install jq
+
+# ag is "the silver searcher" search tool; retired by ripgrep.
+brew uninstall ag
+
+# sift is like grep, plus faster and with more features; retired by ripgrep.
+brew uninstall sift
 
 # TBD
 brew install gawk
