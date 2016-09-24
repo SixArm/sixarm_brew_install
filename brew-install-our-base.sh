@@ -198,8 +198,11 @@ brew cask install atom
 # Ansible is a simple way to automate apps and IT infrastructure.
 brew install ansible
 
-# ag is "the silver searcher" search tool, like an optimized grep.
-brew link autoconf automake && brew install ag
+# ag is "the silver searcher" search tool; removed in favor of ripgrep.
+brew remove ag
+
+# ripgrep is text search; we prefer it over grep, ag, git grep, ucg, pt, sift.
+brew install https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/brew/ripgrep.rb
 
 # sift is like grep, plus faster and with more features.
 brew install sift
