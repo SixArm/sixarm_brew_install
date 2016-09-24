@@ -403,7 +403,7 @@ brew cask install intellij-idea
 # PhpStorm PHP IDE
 brew cask install phpstorm
 
-# PyCharm PHP IDE
+# PyCharm Python IDE
 brew cask install pycharm
 
 # RubyMine Ruby IDE
