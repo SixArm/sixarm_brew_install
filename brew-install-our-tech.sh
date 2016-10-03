@@ -427,4 +427,4 @@ brew cask install omnigraffle
 brew cask install omniplan
 
 # Outliner
-brew cask install omnioutline
+brew cask install omnioutliner
