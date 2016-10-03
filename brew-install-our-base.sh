@@ -116,6 +116,9 @@ brew install protobuf
 # WinRAR provides compression/decompression for RAR and ZIP files.
 brew install unrar
 
+# Zstandard is the best modern compression
+brew install zstd
+
 # Wget is a free software package for retrieving files using HTTP and FTP.
 brew install wget
 
