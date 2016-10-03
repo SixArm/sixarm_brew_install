@@ -128,6 +128,9 @@ brew cask install eclipse-platform
 # MacTex: LaTeX document preparation system with high-quality typesetting.
 brew cask install mactex
 
+# MacVIM
+brew cask install macvin
+
 ##
 # Databases
 #
