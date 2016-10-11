@@ -117,6 +117,9 @@ brew cask install vagrant
 # VirtualBox creates and configures portable development environments, by Oracle.
 brew cask install virtualbox
 
+# Terraform common configuration to launch infrastructure.
+brew install terraform
+
 ##
 # Editors
 ##
