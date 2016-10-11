@@ -1,15 +1,17 @@
-# brew install our favorite formulas
+# brew install commands for our favorite formulas
 
-These are our team's `brew install` commands that we use to set up a typical Mac OS X computer.
+These are our team's `brew install` commands that we use to set up a typical MacBook macOS computer.
 
 ## Contents
 
 Two scripts that install our base pacakages that are suitable for all our users:
 
-  * `brew-install-our-base.sh`: this runs smoothly, without passwords, or prompts, or blockers.
-  * `brew-install-our-base-manual.sh`: this needs passwords, has prompts, and may block.
+  * `brew-install-our-basics.sh`: good for everyone
+  * `brew-install-our-basics-with-prompts.sh`: good for everyone, plus has prompts for passwords and interaction.
+  * `brew-install-our-stacks.sh`: good for programmers
+  * `brew-install-our-stacks-with-prompts.sh`: good for programmers, plus has prompts for passwords and interactions.
 
-The rest of the scripts install specialized formulas that are suitable for our programmers, and tend to have larger downloads and longer installations.
+The two scripts that install stacks have much larger downloads, and also longer installations, because the stacks include programming languages, databases, servers, developer tools, and more.
 
 ## Usage
 
