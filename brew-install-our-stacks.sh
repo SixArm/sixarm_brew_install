@@ -123,6 +123,9 @@ brew install terraform
 # corectl provides CoreOS over macOS made very simple
 brew cask install corectl
 
+# Kubernetes Solo cluster for macOS
+brew cask install kube-solo
+
 ##
 # Editors
 ##
