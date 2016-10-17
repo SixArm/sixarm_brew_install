@@ -120,6 +120,9 @@ brew cask install virtualbox
 # Terraform common configuration to launch infrastructure.
 brew install terraform
 
+# corectl provides CoreOS over macOS made very simple
+brew cask install corectl
+
 ##
 # Editors
 ##
