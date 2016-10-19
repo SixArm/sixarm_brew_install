@@ -308,6 +308,11 @@ brew install libtiff
 # Jasper command line transcoder between JPEG2000 and other formats.
 brew install jasper
 
+## Driver-related
+
+# DisplayLink enables adding monitors
+brew cask install displaylink
+
 ## Uncategorized
 
 brew install abook
