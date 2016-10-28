@@ -4,12 +4,12 @@ These are our team's `brew install` commands that we use to set up a typical Mac
 
 ## Contents
 
-Two scripts that install our base pacakages that are suitable for all our users:
+Simple scripts that install a lot of common software:
 
-  * `brew-install-our-basics.sh`: good for everyone
-  * `brew-install-our-basics-with-prompts.sh`: good for everyone, plus has prompts for passwords and interaction.
-  * `brew-install-our-stacks.sh`: good for programmers
-  * `brew-install-our-stacks-with-prompts.sh`: good for programmers, plus has prompts for passwords and interactions.
+  * `brew-install-our-basics-automatically.sh`: good for everyone
+  * `brew-install-our-basics-with-prompts.sh`: good for everyone, and pauses for prompts.
+  * `brew-install-our-stacks-automatically.sh`: good for programmers
+  * `brew-install-our-stacks-with-prompts.sh`: good for programmers, and pauses for prompts.
 
 The two scripts that install stacks have much larger downloads, and also longer installations, because the stacks include programming languages, databases, servers, developer tools, and more.
 
