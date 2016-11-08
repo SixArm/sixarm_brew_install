@@ -437,3 +437,9 @@ brew cask install omniplan
 
 # Outliner
 brew cask install omnioutliner
+
+
+## Cleanup - this is always the last thing to do
+
+brew cleanup
+brew cask cleanup

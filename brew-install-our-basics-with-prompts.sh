@@ -46,3 +46,4 @@ brew cask install zoomus
 ## Cleanup - this is always the last thing to do
 
 brew cleanup
+brew cask cleanup

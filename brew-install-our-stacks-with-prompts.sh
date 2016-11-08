@@ -43,3 +43,4 @@ brew cask install heroku-toolbelt
 ## Cleanup - this is always the last thing to do
 
 brew cleanup
+brew cask cleanu
