@@ -22,6 +22,9 @@
 #
 ##
 
+# Update - this is always the first step
+brew update
+
 ##
 # Environment
 ##

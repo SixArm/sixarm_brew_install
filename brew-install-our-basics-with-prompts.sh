@@ -8,6 +8,9 @@
 #
 ##
 
+# Update - this is always the first step
+brew update
+
 ## Environment-related
 
 # DisplayLink enables adding monitors

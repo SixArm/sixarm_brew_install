@@ -8,6 +8,9 @@
 # an issue, or emailing us, or creating a pull request. Thanks!
 ##
 
+# Update - this is always the first step
+brew update
+
 ##
 # Quickstart
 #

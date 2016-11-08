@@ -8,6 +8,9 @@
 #
 ##
 
+# Update - this is always the first step
+brew update
+
 # Emacs editor.
 sudo rm /usr/bin/emacs &&
 sudo rm -rf /usr/share/emacs &&
