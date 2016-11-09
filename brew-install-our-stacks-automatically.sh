@@ -133,6 +133,14 @@ brew cask install kube-solo
 # Editors
 ##
 
+# Emacs editor
+brew cask install emacs
+
+# Emacs editor for Spacemacs
+brew tap d12frosted/emacs-plus
+brew install emacs-plus
+brew linkapps emacs-plus
+
 # Eclipse is a large programming IDE built on Java
 brew cask install eclipse-ide
 brew cask install eclipse-platform
@@ -142,6 +150,9 @@ brew cask install mactex
 
 # MacVIM
 brew cask install macvin
+
+# Sublime
+brew cask install sublime
 
 ##
 # Databases

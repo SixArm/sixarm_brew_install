@@ -177,15 +177,11 @@ brew install alfred
 # GNU Aspell is a free open source spell checker; compare `lspell`.
 brew install aspell --with-lang=en
 
-# Emacs editor
-brew cask install emacs
-
 # Sublime text editor
 brew cask install sublime-text
 
-# Emacs editor for Spacemacs
-brew tap railwaycat/emacsmacport
-brew install emacs-mac
+# Emacs editor
+brew cask install emacs
 
 # Vim editor
 brew install vim
