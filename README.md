@@ -38,8 +38,8 @@ To learn what a specific formula does, there's a URL for each formula, such as:
 ## Tracking
 
   * Package: sixarm_brew_install
-  * Version: 7.0.0
+  * Version: 7.14.0
   * Created: 2015-04-13
-  * Updated: 2016-06-26
+  * Updated: 2016-11-09
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
