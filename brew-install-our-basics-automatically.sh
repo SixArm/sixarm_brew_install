@@ -700,6 +700,9 @@ brew cask install skitch
 # Skype calling with video and phone calls.
 brew cask install skype
 
+# Discord chat
+brew cask install discord
+
 # Slack chat client
 brew cask install slack
 
