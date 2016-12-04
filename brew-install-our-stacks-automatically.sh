@@ -327,6 +327,9 @@ brew install v8
 # JSON output using the shell
 brew install jo
 
+# JID JSON explorer
+brew tap simeji/jid && brew install jid
+
 ## Perl
 
 # Perl programming language, esp. for systems administration.
@@ -391,7 +394,7 @@ brew install sourcekitten
 # Taylor is a Swift code quality metrics tool.
 brew install taylor
 
-# Testflight Apple iOS testing service 
+# Testflight Apple iOS testing service
 brew cask install testflight
 
 ##
