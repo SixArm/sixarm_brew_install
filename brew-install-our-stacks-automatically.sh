@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# brew-install-our-tech.sh
+# brew-install-our-stacks-automatically.sh
 #
 # Use Homebrew to install our favorite tech-related packages
 # that can be installed fully automatically i.e. unattended;
@@ -187,6 +187,9 @@ brew install postgresql
 
 # Postgres App provides a Mac-friendly database.
 brew cask install postgres
+
+# Postgres admin GUI
+brew install pgadmin3
 
 # RabbitMQ enterprise message queue based on the emerging AMQP standard.
 brew install rabbitmq
