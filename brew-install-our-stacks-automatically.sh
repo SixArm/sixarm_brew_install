@@ -401,6 +401,13 @@ brew install taylor
 brew cask install testflight
 
 ##
+# Media
+##
+
+# Inkscape vector art editor
+brew cask install inkscape
+
+##
 # Paid software
 #
 #   * JetBrains programmer tools
