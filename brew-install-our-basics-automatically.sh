@@ -580,9 +580,6 @@ brew cask install ganttproject
 # TDB
 brew cask install gfxcardstatus
 
-# Gimp image editor, similar to Photoshop
-brew cask install gimp
-
 # GitHub source code social sharing
 brew cask install github
 

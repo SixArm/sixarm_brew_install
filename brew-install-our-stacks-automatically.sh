@@ -401,11 +401,17 @@ brew install taylor
 brew cask install testflight
 
 ##
-# Media
+# Art editors
 ##
 
-# Inkscape vector art editor
-brew cask install inkscape
+# Tap GUI
+brew tap homebrew/gui
+
+# Gimp pixel-based image editor, similar to Adobe Photoshop
+brew cask install gimp
+
+# Inkscape vector-based image  editor, similar to Adobe Illustrator
+brew install inkscape
 
 ##
 # Paid software
