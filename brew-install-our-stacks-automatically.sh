@@ -26,6 +26,13 @@
 brew update
 
 ##
+# System
+##
+
+# XQuartz provides X.Org X Window System that runs on OS X.
+brew cask install xquartz
+
+##
 # Environment
 ##
 
@@ -404,6 +411,9 @@ brew cask install testflight
 # Art editors
 ##
 
+# Xquarts
+brew cask install xquartz
+
 # Tap GUI
 brew tap homebrew/gui
 
@@ -411,7 +421,7 @@ brew tap homebrew/gui
 brew cask install gimp
 
 # Inkscape vector-based image  editor, similar to Adobe Illustrator
-brew install inkscape
+brew cask install inkscape; brew install inkscape
 
 ##
 # Paid software
