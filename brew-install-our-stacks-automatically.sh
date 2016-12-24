@@ -207,6 +207,9 @@ brew install riak
 # SQLite database: self-contained, serverless, zero-configuration, transactional engine.
 brew install sqlite && brew link sqlite
 
+# ZeroMQ message queue
+brew install zeromq
+
 ## Database searchers
 
 # Sphinx search engine.
@@ -532,9 +535,6 @@ brew install libyaml
 
 # ZIP file compression
 brew install libzip
-
-# ZeroMQ message queue
-brew install libzmq
 
 # Images
 brew install libjpg
