@@ -26,31 +26,6 @@
 brew update
 
 ##
-# Lib
-##
-
-# Text encoding
-brew install libiconv
-
-# Sodium secure cryptography
-brew install libsodium
-
-# GNU libtool is a generic library support script.
-brew install libtool
-
-# XML parser
-brew install libxml2
-
-# Curl web fetcher
-brew install libcurl
-
-# PNG images
-brew install libpng
-
-# Audio/Visual converters
-brew install libav
-
-##
 # System
 ##
 
@@ -503,6 +478,69 @@ brew cask install omniplan
 # Outliner
 brew cask install omnioutliner
 
+##
+# Libraries
+#
+# We do this near the end of this file,
+# because we expect these will already be
+# installed by a bunch of the software above.
+#
+# This section here is really just to cover our
+# bases to make sure we have the libraries that we
+# sometimes need for building other software later on.
+##
+
+# Audio/Visual converters
+brew install libav
+
+# Curl web fetcher
+brew install libcurl
+
+# Foreign Function Interface Library
+brew install libffi
+
+# Text encoding
+brew install libiconv
+
+# File magic number recognizer
+brew install libmagic
+
+# ncurses console nagivation
+brew install libncurses
+
+# Sodium secure cryptography
+brew install libsodium
+
+# Readline terminal input
+brew install libreadline
+
+# GNU libtool is a generic library support script.
+brew install libtool
+
+# XML handlers
+brew install libxml2
+brew install libxslt
+
+# High-level interface to X.509 and CMS (Cryptographic Message Syntax)
+brew install libksba
+
+# V8 JavaScript
+brew install libv8
+
+# YAML markup language
+brew install libyaml
+
+# ZIP file compression
+brew install libzip
+
+# ZeroMQ message queue
+brew install libzmq
+
+# Images
+brew install libjpg
+brew install libpng
+brew install libtiff
+brew install libwebp
 
 ## Cleanup - this is always the last thing to do
 
