@@ -26,6 +26,31 @@
 brew update
 
 ##
+# Lib
+##
+
+# Text encoding
+brew install libiconv
+
+# Sodium secure cryptography
+brew install libsodium
+
+# GNU libtool is a generic library support script.
+brew install libtool
+
+# XML parser
+brew install libxml2
+
+# Curl web fetcher
+brew install libcurl
+
+# PNG images
+brew install libpng
+
+# Audio/Visual converters
+brew install libav
+
+##
 # System
 ##
 
@@ -41,9 +66,6 @@ brew tap codeclimate/formulas && brew install codeclimate
 
 # Command-line programs for manipulating fonts
 brew install lcdf-typetools
-
-# GNU libtool is a generic library support script.
-brew install libtool
 
 ##
 # Shell
