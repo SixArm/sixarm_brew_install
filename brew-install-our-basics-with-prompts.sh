@@ -46,6 +46,19 @@ brew cask install unity-web-player
 brew cask install unity3d
 brew cask install zoomus
 
+
+## Mac App Stor
+
+if command -v mas >/dev/null 2>&1; then
+  mas 'Numbers', id: 409203825
+  mas 'Pages', id: 409201541
+  mas 'Slack', id: 803453959
+  mas 'Sip', id: 507257563
+  mas 'Simplenote', id: 692867256
+  mas 'Todoist', id: 585829637
+fi
+
+
 ## Cleanup - this is always the last thing to do
 
 brew cleanup
