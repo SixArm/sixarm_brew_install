@@ -105,41 +105,14 @@ brew install pssh
 brew install pcre
 brew install pcre++
 
-## Fetchers
 
-# Carthage is a simple, decentralized dependency manager for Cocoa
-brew install carthage
-
-# Homebrew Cask extends Homebrew to install OS X applications and large binaries.
-brew install cask
-
-# curl is a command line tool for transferring data with URL syntax
-brew install curl
-
-# HTTrack is a free and easy-to-use offline browser utility.
-brew install httrack
-
-# Protocol buffers for serializing structured data.
-brew install protobuf
+## File compression/decompresses
 
 # WinRAR provides compression/decompression for RAR and ZIP files.
 brew install unrar
 
 # Zstandard is the best modern compression
 brew install zstd
-
-# Wget is a free software package for retrieving files using HTTP and FTP.
-brew install wget
-
-# Syncthing is open source file sharing
-brew install syncthing
-
-##
-# File-Related
-##
-
-# Android file transfer
-brew cask install android-file-transfer
 
 # Unrar uncmopressor
 brew install unrar
@@ -153,6 +126,29 @@ brew cask install keka
 # Libs
 brew install libzip
 brew install libzzip
+
+## Fetchers
+
+# Android file transfer
+brew cask install android-file-transfer
+
+# Carthage is a simple, decentralized dependency manager for Cocoa
+brew install carthage
+
+# Homebrew Cask extends Homebrew to install OS X applications and large binaries.
+brew install cask
+
+# curl is a command line tool for transferring data with URL syntax
+brew install curl
+
+# HTTrack is a free and easy-to-use offline browser utility.
+brew install httrack
+
+# Wget is a free software package for retrieving files using HTTP and FTP.
+brew install wget
+
+# Syncthing is open source file sharing
+brew install syncthing
 
 ## Version Control
 

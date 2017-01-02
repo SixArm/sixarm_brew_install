@@ -154,8 +154,12 @@ brew install varnish
 brew install libmemcached
 brew install memcached
 
-# Thrift is a network data protocol.
+# Thrift is a protocol for serializing structured data; compare profobut.
 brew install thrift
+
+# Protocol buffers for serializing structured data; compare thrift.
+brew install protobuf
+
 
 ##
 # Virtual environments
