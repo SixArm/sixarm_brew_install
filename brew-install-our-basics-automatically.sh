@@ -11,6 +11,19 @@
 # Update - this is always the first step
 brew update
 
+## Tap
+
+brew tap bramstein/webfonttools
+brew tap caskroom/cask
+brew tap caskroom/fonts
+brew tap homebrew/binary
+brew tap homebrew/brewdler
+brew tap homebrew/core
+brew tap homebrew/dupes
+brew tap homebrew/fuse
+brew tap homebrew/versions
+brew tap jingweno/ccat
+
 ##
 # Quickstart
 #
@@ -27,6 +40,10 @@ brew cask install vim
 # Our favorite web browser
 brew cask install firefox
 
+# Our favorite Virtual Private Network apps (VPNs)
+brew cask install expressvpn
+brew cask install nordvpn
+
 ## Passwords
 
 # 1password is a password manager
@@ -40,14 +57,6 @@ brew install gpg
 
 # Keybase.io digital signature manager
 brew install keybase
-
-## Libraries
-
-# The libevent API provides provides asynchronous event notification and callbacks.
-brew install libevent
-
-# Magic number recognition library for file types.
-brew install libmagic
 
 ## Fundamental
 
@@ -127,6 +136,26 @@ brew install wget
 
 # Syncthing is open source file sharing
 brew install syncthing
+
+##
+# File-Related
+##
+
+# Android file transfer
+brew cask install android-file-transfer
+
+# Unrar uncmopressor
+brew install unrar
+
+# Unzip uncompressor
+brew install homebrew/dupes/unzip
+
+# Keka free file archiver
+brew cask install keka
+
+# Libs
+brew install libzip
+brew install libzzip
 
 ## Version Control
 
@@ -251,7 +280,7 @@ brew install rename
 # TBD
 brew install salt
 
-# Tree is a directory lister that shows a tree outline
+# Tree is a directory lister that shows a tree outline.
 brew install tree
 
 # Unison is a high-level file synchronization utility; compare `rsync`.
@@ -260,24 +289,10 @@ brew install unison
 # xclip is a command line interface to the X11 clipboard.
 brew install xclip
 
-## Server-Related
-
-# Docker software containers to help distribute applications.
-brew install docker && brew install boot2docker
-
-# Monit is for managing and monitoring Unix systems.
-brew install monit
-
-# Nagios IT infrastructure monitoring.
-brew install nagios
-
-# TBD
-brew install nginx
-
-# Varnish reverse-proxy web application accelerator.
-brew install varnish
-
 ## Media-Related
+
+# Adobe Create Cloud: Photoshop, Illustrator, etc.
+brew cask install adobe-creative-cloud
 
 brew install exif
 brew install exiftags
@@ -286,9 +301,38 @@ brew install flac
 brew install ffmpeg
 brew install ffmpeg2theora
 brew install ffmpegthumbnailer
+
+# ImageMagick image editor command line interface.
 brew install imagemagick
+
+# Kindle book reader.
 brew install kindle
+
+# Theora open video codec.
 brew install theora
+
+# Spotify music player.
+brew cask install spotify
+
+# Slate media library for presentations.
+brew cask install slate
+
+# VLC media player
+brew cask install vlc
+
+## Torrent-Related
+
+# BitTorrent Syc
+brew cask install bittorrent-sync
+
+# Transmission bittorrent client.
+brew cask install transmission
+
+# Extras
+#brew install mktorrent
+#brew install rtorrent
+#brew install libtorrent
+#brew install libtorrent-rasterbar
 
 ## Font-Related
 
@@ -297,6 +341,9 @@ brew install fontconfig
 
 # FreeType is a freely available software library to render fonts.
 brew install freetype
+
+# Hack is a font for programmers
+brew cask install font-hack
 
 ## Image-Related
 
@@ -307,13 +354,35 @@ brew install libtiff
 # Jasper command line transcoder between JPEG2000 and other formats.
 brew install jasper
 
+## Productivity
+
+# LibreOffice is a large editor for text, spreadsheets, diagrams.
+brew cask install libreoffice
+
+# OmniFocus task manager (fee).
+brew cask install omnifocus
+
+# OmniGraffle diagram drawing editor (fee).
+brew cask install omnigraffle
+
+# MindNode mind-mapping helps you visualize your ideas (fee).
+brew cask install mindnode-pro
+
+## Communication
+
+# Skype calling with video and phone calls.
+brew cask install skype
+
+# Discord chat
+brew cask install discord
+
+# Slack chat client
+brew cask install slack
 
 ## Uncategorized
 
 brew install abook
 brew install ack
-brew install apachetop
-brew install apple-gcc42
 brew install ascii
 brew install asciidoc
 brew install asciitex
@@ -353,7 +422,6 @@ brew install google-js-test
 brew install google-perftools
 brew install google-sparsehash
 brew install google-sql-tool
-brew install html2text
 brew install htop
 brew install httperf
 brew install ical-buddy
@@ -437,7 +505,6 @@ brew install homebrew/dupes/tcl-tk
 brew install homebrew/dupes/tcpdump
 brew install homebrew/dupes/tidy
 brew install homebrew/dupes/units
-brew install homebrew/dupes/unzip
 brew install homebrew/dupes/whois
 brew install homebrew/dupes/zlib
 
@@ -500,9 +567,6 @@ brew cask install basecamp
 brew cask install beacon-scanner
 
 # TDB
-brew cask install bittorrent-sync
-
-# TDB
 brew cask install blender
 
 # TDB
@@ -544,16 +608,16 @@ brew cask install dash
 # TDB
 brew cask install doxygen
 
-# TDB
+# Dropbox file sharing
 brew cask install dropbox
 
-# TDB
+# Duet screen sharing
 brew cask install duet
 
 # TDB
 brew cask install easysimbl
 
-# TDB
+# Evernote cloud note-taking app
 brew cask install evernote
 
 # FileZilla FTP client
@@ -622,7 +686,7 @@ brew cask install hockey
 # TDB
 brew cask install hipchat
 
-# TDB
+# iTerm terminal
 brew cask install iterm2
 
 # TDB
@@ -643,14 +707,6 @@ brew cask install launchy
 # TDB
 brew cask install little-snitch
 
-# OmniFocus task manager, best with the paid service.
-brew cask install omnifocus
-
-# OmniGraffle diagram drawing editor.
-brew cask install omnigraffle
-
-# LibreOffice is a large editor for text, spreadsheets, diagrams.
-brew cask install libreoffice
 
 # TBD
 brew cask install mysqlworkbench
@@ -694,15 +750,6 @@ brew cask install silverlight
 # TBD
 brew cask install skitch
 
-# Skype calling with video and phone calls.
-brew cask install skype
-
-# Discord chat
-brew cask install discord
-
-# Slack chat client
-brew cask install slack
-
 # TBD
 brew cask install sleep-monitor
 
@@ -711,9 +758,6 @@ brew cask install sophos-anti-virus-home-edition
 
 # TBD
 brew cask install sourcetree
-
-# Spotify music player
-brew cask install spotify
 
 # TBD
 brew cask install superduper
@@ -727,9 +771,6 @@ brew cask install thisservice
 # Thunderbird email client by Mozilla.
 brew cask install thunderbird
 
-# Transmission bittorrent client.
-brew cask install transmission
-
 # TBD
 brew cask install transmit
 
@@ -741,9 +782,6 @@ brew cask install todos
 
 # Unison file synchronizer.
 brew cask install unison
-
-# VLC media player
-brew cask install vlc
 
 ##
 # Extras
@@ -1045,8 +1083,6 @@ brew cask install vlc
 # brew install libtiff
 # brew install libtommath
 # brew install libtool
-# brew install libtorrent
-# brew install libtorrent-rasterbar
 # brew install libtrace
 # brew install libunique
 # brew install libunistring
@@ -1074,8 +1110,6 @@ brew cask install vlc
 # brew install libyaml
 # brew install libyubikey
 # brew install libzdb
-# brew install libzip
-# brew install libzzip
 # brew install lifelines
 # brew install lightning
 # brew install lighttpd
@@ -1189,7 +1223,6 @@ brew cask install vlc
 # brew install mkclean
 # brew install mkcue
 # brew install mksh
-# brew install mktorrent
 # brew install mkvalidator
 # brew install mkvtoolnix
 # brew install mldonkey
@@ -1599,7 +1632,6 @@ brew cask install vlc
 # brew install rsyslog
 # brew install rt-audio
 # brew install rtmpdump
-# brew install rtorrent
 # brew install rtpbreak
 # brew install rubber
 # brew install rubinius
@@ -1889,7 +1921,6 @@ brew cask install vlc
 # brew install unixodbc
 # brew install unp
 # brew install unpaper
-# brew install unrar
 # brew install unrtf
 # brew install unshield
 # brew install unyaffs
@@ -2032,7 +2063,6 @@ brew cask install vlc
 # brew install ykclient
 # brew install ykpers
 # brew install youtube-dl
-# brew install yuicompressor
 # brew install yydecode
 # brew install z
 # brew install zbar
@@ -2050,6 +2080,19 @@ brew cask install vlc
 # brew install zssh
 # brew install zsync
 # brew install zzuf
+
+##
+# Libraries
+#
+# These libraries will likely already be installed by the above tools.
+# We also list them here for completeness and for thoroughness.
+##
+
+# The libevent API provides provides asynchronous event notification and callbacks.
+brew install libevent
+
+# Magic number recognition library for file types.
+brew install libmagic
 
 ## Cleanup - this is always the last thing to do
 

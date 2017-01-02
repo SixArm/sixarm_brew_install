@@ -25,6 +25,19 @@
 # Update - this is always the first step
 brew update
 
+## Tap
+
+brew tap bramstein/webfonttools
+brew tap caskroom/cask
+brew tap caskroom/fonts
+brew tap homebrew/binary
+brew tap homebrew/brewdler
+brew tap homebrew/core
+brew tap homebrew/dupes
+brew tap homebrew/fuse
+brew tap homebrew/versions
+brew tap jingweno/ccat
+
 ##
 # System
 ##
@@ -32,34 +45,37 @@ brew update
 # XQuartz provides X.Org X Window System that runs on OS X.
 brew cask install xquartz
 
+# Qt toolkit Cross-platform development of UIS and apps.
+brew install qt5
+
 ##
 # Environment
 ##
 
-# Code Climate Platform for all static analysic
+# Code Climate Platform for all static analysic.
 brew tap codeclimate/formulas && brew install codeclimate
 
-# Command-line programs for manipulating fonts
+# Command-line programs for manipulating fonts.
 brew install lcdf-typetools
 
 ##
 # Shell
 ##
 
-# GUI for rsync
+# GUI for rsync.
 brew install grsync
 
-# Shell script syntax check linter
+# Shell script syntax check linter.
 brew link pandoc; brew install shellcheck
 
-# BATS: Bash Automated Testing System
+# BATS: Bash Automated Testing System.
 brew cask install bats
 
 ##
 # Clients
 ##
 
-# Shuttle: simple SSH shortcut menu
+# Shuttle: simple SSH shortcut menu.
 brew cask install shuttle
 
 # Fugu: a graphical shell for SSH and FTP.
@@ -82,6 +98,13 @@ brew cask install sourcetree
 # Apache Maven is a software project management and comprehension tool.
 brew install maven
 
+# Apache Top command
+brew install apachetop
+
+# Apache Portable Runtime (APR)
+brew install apr
+brew install apr-util
+
 ##
 # Mac programming
 ##
@@ -102,6 +125,12 @@ brew cask install tunnelblick
 # Wireshark network monitoring, with the QT GUI.
 brew link cmake; brew cask install wireshark --with-qt
 
+# Monit is for managing and monitoring Unix systems.
+brew install monit
+
+# Nagios IT infrastructure monitoring.
+brew install nagios
+
 # Wireshark-chmodbft enables regular users to capture network packets.
 brew cask install wireshark-chmodbpf
 
@@ -110,6 +139,16 @@ brew cask install charles
 
 # Siege is an http load testing and benchmarking utility.
 brew install siege
+
+# Docker software containers to help distribute applications.
+brew install docker
+brew install boot2docker
+
+# NGINX web server, with Ruby passenger middleware.
+brew install nginx --with-passenger
+
+# Varnish reverse-proxy web application accelerator.
+brew install varnish
 
 ##
 # Virtual environments
@@ -157,6 +196,15 @@ brew cask install macvin
 
 # Sublime
 brew cask install sublime
+brew cask install sublime-text
+
+##
+# Fonts
+##
+
+# Web font tools
+brew install bramstein/webfonttools/sfnt2woff-zopfli
+brew install bramstein/webfonttools/woff2
 
 ##
 # Databases
@@ -173,6 +221,9 @@ brew install cassandra
 
 # CouchDB database, esp. for document-oriented storage.
 brew install couchdb
+
+# GNU dbm database functions
+brew install gdbm
 
 # Hadoop database.
 brew install hadoop
@@ -240,22 +291,25 @@ brew cask install valentina-studio
 # Markdown tools, UML tools, XML tools, and similar.
 ##
 
-# Pandoc converts among various formats, such as Markdown and HTML
+# Pandoc converts among various formats, such as Markdown and HTML.
 brew install pandoc
+
+# Augeas configuration file parser.
+brew install augeas
 
 ## Markdown
 
-# MacDown simple markdown editor
+# MacDown simple markdown editor.
 brew cask install macdown
 
 ## UML
 
-# StarUML modeling tool
+# StarUML modeling tool.
 brew cask install staruml
 
 ## XML
 
-# XML converter
+# XML converter.
 brew install xmlstarlet
 
 # Libxml2 is the XML C parser and toolkit.
@@ -264,6 +318,17 @@ brew install libxml2
 # Libxslt is the XSLT C library for the XML EXtensible Stylesheet Language.
 brew install libxslt
 
+## HTML & CSS
+
+# Yahoo UI Compressor.
+brew install yuicompressor
+
+# Convert HTML to text
+brew install html2text
+
+# HTML compressor
+brew install htmlcompressor --with-yuicompressor
+
 ##
 # Programming Languages
 #
@@ -271,6 +336,14 @@ brew install libxslt
 # Clojure, Elixir, Erlang, Go, Haskell, Java, JavaScript,
 # Perl, Python, R, Ruby, Scala, Swift, and tooling.
 ##
+
+## Compilers
+
+# LLVM cross-compiler
+brew install homebrew/versions/llvm35
+
+# Apple GCC (GNU C Compiler)
+brew install apple-gcc42
 
 ## Clojure
 
@@ -322,6 +395,9 @@ brew install tomcat
 
 # Glassfish application server.
 brew install glassfish
+
+# Android Software Development Kit (SDK)
+brew install android-sdk
 
 ## JavaScript
 
@@ -375,6 +451,9 @@ brew install ruby
 
 # Tool to install various implementations of Ruby.
 brew install ruby-install
+
+# Passenger Ruby middleware
+brew install passenger
 
 ## Scala
 
@@ -493,6 +572,9 @@ brew cask install omnioutliner
 # sometimes need for building other software later on.
 ##
 
+# GNU Multiple Precision Arithmetic Library
+brew install gmp
+
 # Audio/Visual converters
 brew install libav
 
@@ -504,6 +586,7 @@ brew install libffi
 
 # Text encoding
 brew install libiconv
+brew install homebrew/dupes/libiconv
 
 # File magic number recognizer
 brew install libmagic
@@ -541,6 +624,34 @@ brew install libjpg
 brew install libpng
 brew install libtiff
 brew install libwebp
+
+##
+# TODO
+#
+# These items come from other people and other repos
+##
+
+brew install berkeley-db
+brew install ccat
+brew install chromedriver
+brew install cscope
+brew install dialog
+brew install dirmngr
+brew install dos2unix
+brew install exercism
+brew install fasd
+brew install gettext
+brew install ghostscript
+brew install git-crypt
+brew install gnupg
+brew install gpg-agent
+brew install gnupg2
+brew install jbig2dec
+brew install openssl
+brew install nginx --with-passenger
+brew install nvm
+brew install otto
+brew install packer
 
 ## Cleanup - this is always the last thing to do
 

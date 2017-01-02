@@ -35,11 +35,17 @@ To learn what a specific formula does, there's a URL for each formula, such as:
 
   * http://brewformulas.org/foo
 
+## See Also
+
+Thanks:
+
+* https://github.com/henrylawson/dotbash
+
 ## Tracking
 
   * Package: sixarm_brew_install
-  * Version: 7.14.0
+  * Version: 7.15.0
   * Created: 2015-04-13
-  * Updated: 2016-11-09
+  * Updated: 2017-01-01
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
