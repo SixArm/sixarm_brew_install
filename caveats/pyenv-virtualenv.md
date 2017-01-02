@@ -1,0 +1,7 @@
+# pyenv-virtualenv
+
+To enable auto-activation add to your profile:
+
+    if which pyenv-virtualenv-init > /dev/null
+    then eval "$(pyenv virtualenv-init -)"
+    fi
