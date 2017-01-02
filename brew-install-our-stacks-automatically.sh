@@ -150,6 +150,13 @@ brew install nginx --with-passenger
 # Varnish reverse-proxy web application accelerator.
 brew install varnish
 
+# Memcached is an in-memory cache server.
+brew install libmemcached
+brew install memcached
+
+# Thrift is a network data protocol.
+brew install thrift
+
 ##
 # Virtual environments
 ##

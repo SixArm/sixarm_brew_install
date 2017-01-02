@@ -431,18 +431,10 @@ brew isntall libdnet
 brew install lzo
 brew install rarian
 brew install pixman
-
-# libMemcached is a client library and tools for the memcached server.
-brew install libmemcached
-brew install memcached
-
 brew install scrypt
-brew install qt
 
 # Tarsnap is a secure online backup service for Unix.
 brew install tarsnap
-
-brew install thrift
 
 # Valkyrie is a Qt4-based GUI for the Memcheck and Helgrind tools in Valgrind.
 brew install valkyrie
