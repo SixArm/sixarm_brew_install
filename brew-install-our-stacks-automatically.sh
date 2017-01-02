@@ -357,6 +357,11 @@ brew install homebrew/versions/llvm35
 # Apple GCC (GNU C Compiler)
 brew install apple-gcc42
 
+# Valgrind suite of tools for debugging and profiling.
+# Valkyrie is a Qt4-based GUI for the Memcheck and Helgrind tools in Valgrind.
+# Uninstall these because they are currently incompatible with macOS 10.12
+brew uninstall valkryrie; brew uninstall valgrind
+
 ## Clojure
 
 # Clojure programming language compiler.

@@ -431,9 +431,6 @@ brew install scrypt
 # Tarsnap is a secure online backup service for Unix.
 brew install tarsnap
 
-# Valkyrie is a Qt4-based GUI for the Memcheck and Helgrind tools in Valgrind.
-brew install valkyrie
-
 # WINE runs Windows applications on other operating systems.
 brew install wine
 
