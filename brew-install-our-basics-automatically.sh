@@ -235,11 +235,11 @@ brew install https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/bre
 # jq is a lightweight and flexible command-line JSON processor.
 brew install jq
 
-# ag is "the silver searcher" search tool; retired by ripgrep.
-brew uninstall ag
+# ag is "the silver searcher" search tool; compare ripgrep.
+brew install ag
 
-# sift is like grep, plus faster and with more features; retired by ripgrep.
-brew uninstall sift
+# sift is like grep, plus faster and with more features; compare ripgrep.
+brew install sift
 
 # TBD
 brew install gawk
