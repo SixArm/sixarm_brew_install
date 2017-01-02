@@ -47,6 +47,7 @@ brew cask install xquartz
 
 # Qt toolkit Cross-platform development of UIS and apps.
 brew install qt5
+brew install pyqt
 
 ##
 # Environment

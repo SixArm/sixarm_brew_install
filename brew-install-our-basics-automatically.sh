@@ -23,6 +23,7 @@ brew tap homebrew/dupes
 brew tap homebrew/fuse
 brew tap homebrew/versions
 brew tap jingweno/ccat
+brew tap rafaelgarrido/homebrew-caveats && brew install brew-caveats
 
 ##
 # Quickstart
@@ -43,6 +44,7 @@ brew cask install firefox
 # Our favorite Virtual Private Network apps (VPNs)
 brew cask install expressvpn
 brew cask install nordvpn
+
 
 ## Passwords
 
@@ -1519,7 +1521,6 @@ brew cask install unison
 # brew install pygtk
 # brew install pygtkglext
 # brew install pypy
-# brew install pyqt
 # brew install pyqwt
 # brew install pyside
 # brew install pyside-tools
@@ -1538,7 +1539,6 @@ brew cask install unison
 # brew install qrupdate
 # brew install qscintilla2
 # brew install qstat
-# brew install qt-mobility
 # brew install quantlib
 # brew install quassel
 # brew install quex
