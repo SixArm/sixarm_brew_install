@@ -52,9 +52,6 @@ brew cask install 1password
 # LastPass is a password manager
 brew cask install lastpass
 
-# GPG: Gnu Privacy Guard
-brew install gpg
-
 # Keybase.io digital signature manager
 brew install keybase
 
