@@ -504,6 +504,16 @@ brew install taylor
 brew cask install testflight
 
 ##
+# Platforms
+##
+
+# Amazon Web Services (AWS) Command Line Interface (CLI)
+brew install awscli
+
+# Heroku app hosting
+brew install heroku
+
+##
 # Art editors
 ##
 
