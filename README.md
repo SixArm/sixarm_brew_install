@@ -10,8 +10,9 @@ Simple scripts that install a lot of common software:
   * `brew-install-our-basics-with-prompts.sh`: good for everyone, and pauses for prompts.
   * `brew-install-our-stacks-automatically.sh`: good for programmers
   * `brew-install-our-stacks-with-prompts.sh`: good for programmers, and pauses for prompts.
+  * `brew-install-our-fonts.sh`: good for designers
 
-The two scripts that install stacks have much larger downloads, and also longer installations, because the stacks include programming languages, databases, servers, developer tools, and more.
+The scripts that install stacks have much larger downloads, and also longer installations, because the stacks include programming languages, databases, servers, developer tools, and more.
 
 ## Usage
 
