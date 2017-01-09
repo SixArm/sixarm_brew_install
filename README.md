@@ -1,16 +1,16 @@
 # brew install commands for our favorite formulas
 
-These are our team's `brew install` commands that we use to set up a typical MacBook macOS computer.
+These are our team's [`brew install`](brew install) commands that we use to set up a typical MacBook macOS computer.
 
 ## Contents
 
 Simple scripts that install a lot of common software:
 
-  * `brew-install-our-basics-automatically.sh`: good for everyone
-  * `brew-install-our-basics-with-prompts.sh`: good for everyone, and pauses for prompts.
-  * `brew-install-our-stacks-automatically.sh`: good for programmers
-  * `brew-install-our-stacks-with-prompts.sh`: good for programmers, and pauses for prompts.
-  * `brew-install-our-fonts.sh`: good for designers
+  * [`brew-install-our-basics-automatically.sh`](brew-install-our-basics-automatically.sh): good for everyone
+  * [`brew-install-our-basics-with-prompts.sh`](brew-install-our-basics-with-prompts.sh): good for everyone, and pauses for prompts.
+  * [`brew-install-our-stacks-automatically.sh`](brew-install-our-stacks-automatically.sh): good for programmers
+  * [`brew-install-our-stacks-with-prompts.sh`](brew-install-our-stacks-with-prompts.sh): good for programmers, and pauses for prompts.
+  * [`brew-install-our-fonts.sh`](brew-install-our-fonts.sh): good for designers
 
 The scripts that install stacks have much larger downloads, and also longer installations, because the stacks include programming languages, databases, servers, developer tools, and more.
 
@@ -43,12 +43,11 @@ Thanks:
 * https://github.com/henrylawson/dotbash
 
 
-
 ## Tracking
 
   * Package: sixarm_brew_install
-  * Version: 7.15.0
+  * Version: 7.20.0
   * Created: 2015-04-13
-  * Updated: 2017-01-01
+  * Updated: 2017-01-09
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
