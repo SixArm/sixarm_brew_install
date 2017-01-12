@@ -332,6 +332,9 @@ brew install libxslt
 
 ## HTML & CSS
 
+# PUP command line HTML parser.
+brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
+
 # Yahoo UI Compressor.
 brew install yuicompressor
 
