@@ -85,6 +85,9 @@ brew cask install fugu
 # Charles: enables a developer to view HTTP traffic.
 brew cask install charles
 
+# Postman HTTP API monitoring tool.
+brew cask install postman
+
 ##
 # Versioning
 ##
