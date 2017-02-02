@@ -478,6 +478,11 @@ brew install ruby-install
 # Passenger Ruby middleware
 brew install passenger
 
+## Rust
+
+# Rust programming language
+brew install rust
+
 ## Scala
 
 # Scala programming language, that runs on top of the JVM.
