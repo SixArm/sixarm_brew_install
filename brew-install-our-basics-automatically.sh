@@ -11,7 +11,9 @@
 # Update - this is always the first step
 brew update
 
-## Tap
+##
+# Tap
+##
 
 brew tap bramstein/webfonttools
 brew tap caskroom/cask
@@ -46,7 +48,9 @@ brew cask install expressvpn
 brew cask install nordvpn
 
 
-## Passwords
+##
+# Passwords
+##
 
 # 1password is a password manager
 brew cask install 1password
@@ -57,7 +61,10 @@ brew cask install lastpass
 # Keybase.io digital signature manager
 brew install keybase
 
-## Fundamental
+
+##
+# Fundamental
+##
 
 # Automake is a tool for automatically generating Makefile installation files.
 brew install automake
@@ -80,7 +87,10 @@ brew install pkg-config && brew link pkg-config && brew install tmux
 # Functions for use by applications that allow users to edit command lines while typing.
 brew install readline
 
-## Shell related
+
+##
+# Shell related
+##
 
 # Bash is the Bourne Again SHell. Bash is an sh-compatible shell.
 brew install bash
@@ -91,7 +101,7 @@ brew install bash-completion
 # TBD
 brew install bashish
 
-# pkg-config is a helper tool used when compiling applications and libraries.
+# tmux is a scree
 brew install pkg-config && brew link pkg-config && brew install tmux
 
 # Zsh is a shell designed for interactive use.
@@ -108,7 +118,29 @@ brew install pcre
 brew install pcre++
 
 
-## File compression/decompresses
+##
+# Terminals
+#
+# We typically use `tmux` and `tmate`,
+# and sometimes fall back on `screen`.
+##
+
+# iTerm is our favorite terminal app.
+cask 'iterm2'
+
+# tmux is a newer terminal multiplexer.
+brew 'pkg-config' && brew link pkg-config && brew 'tmux'
+
+# tmate is a fork of tmux that makes screen sharing friendlier.
+brew 'tmate'
+
+# Screen is an older terminal multiplexer.
+brew 'homebrew/dupes/screen'
+
+
+##
+# File compression/decompresses
+##
 
 # WinRAR provides compression/decompression for RAR and ZIP files.
 brew install unrar
@@ -129,7 +161,10 @@ brew cask install keka
 brew install libzip
 brew install libzzip
 
-## Fetchers
+
+##
+# Fetchers
+##
 
 # Android file transfer
 brew cask install android-file-transfer
@@ -152,7 +187,10 @@ brew install wget
 # Syncthing is open source file sharing
 brew install syncthing
 
-## Version Control
+
+##
+# Version Control
+##
 
 # CVS is a version control system.
 brew install cvs
@@ -191,12 +229,18 @@ brew install hg
 # Subversion version control system.
 brew install sqlite && brew link sqlite && brew install subversion
 
-## Utility-Related
+
+##
+# Utility-Related
+##
 
 # Alfred: boost your efficiency with hotkeys, keywords, text expansion, etc.
 brew install alfred
 
-## Editing-Related
+
+##
+# Editing-Related
+##
 
 # GNU Aspell is a free open source spell checker; compare `lspell`.
 brew install aspell --with-lang=en
@@ -219,7 +263,10 @@ brew install enca
 # Atom editor by GitHub
 brew cask install atom
 
-## Tools
+
+##
+# Tools
+##
 
 # Ansible is a simple way to automate apps and IT infrastructure.
 brew install ansible
@@ -284,7 +331,9 @@ brew install unison
 # xclip is a command line interface to the X11 clipboard.
 brew install xclip
 
-## Media-Related
+##
+# Media-Related
+##
 
 # Adobe Create Cloud: Photoshop, Illustrator, etc.
 brew cask install adobe-creative-cloud
@@ -315,7 +364,10 @@ brew cask install slate
 # VLC media player
 brew cask install vlc
 
-## Torrent-Related
+
+##
+# Torrent-Related
+##
 
 # BitTorrent Syc
 brew cask install bittorrent-sync
@@ -329,7 +381,9 @@ brew cask install transmission
 #brew install libtorrent
 #brew install libtorrent-rasterbar
 
-## Font-Related
+##
+# Font-Related
+##
 
 # Fontconfig is a library for configuring and customizing font access.
 brew install fontconfig
@@ -340,7 +394,10 @@ brew install freetype
 # Hack is a font for programmers
 brew cask install font-hack
 
-## Image-Related
+
+##
+# Image-Related
+##
 
 brew install libgphoto2
 brew install libpng
@@ -349,7 +406,10 @@ brew install libtiff
 # Jasper command line transcoder between JPEG2000 and other formats.
 brew install jasper
 
-## Productivity
+
+##
+# Productivity
+##
 
 # LibreOffice is a large editor for text, spreadsheets, diagrams.
 brew cask install libreoffice
@@ -363,7 +423,10 @@ brew cask install omnigraffle
 # MindNode mind-mapping helps you visualize your ideas (fee).
 brew cask install mindnode-pro
 
-## Communication
+
+##
+# Communication
+##
 
 # Skype calling with video and phone calls.
 brew cask install skype
@@ -374,7 +437,10 @@ brew cask install discord
 # Slack chat client
 brew cask install slack
 
-## Uncategorized
+
+##
+# Uncategorized
+##
 
 brew install abook
 brew install ack
