@@ -101,9 +101,6 @@ brew install bash-completion
 # TBD
 brew install bashish
 
-# tmux is a scree
-brew install pkg-config && brew link pkg-config && brew install tmux
-
 # Zsh is a shell designed for interactive use.
 brew install zsh
 
@@ -126,17 +123,19 @@ brew install pcre++
 ##
 
 # iTerm is our favorite terminal app.
-cask 'iterm2'
+brew cask install iterm2
 
 # tmux is a newer terminal multiplexer.
-brew 'pkg-config' && brew link pkg-config && brew 'tmux'
+brew install pkg-config && brew link pkg-config && brew install tmux
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
-brew 'tmate'
+brew install tmate
 
 # Screen is an older terminal multiplexer.
-brew 'homebrew/dupes/screen'
+brew install homebrew/dupes/screen
 
+# ngrok opens a secure tunnel to localhost
+brew install ngrok
 
 ##
 # File compression/decompresses

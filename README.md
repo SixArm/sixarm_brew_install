@@ -2,6 +2,9 @@
 
 These are our team's [`brew install`](brew install) commands that we use to set up a typical MacBook macOS computer.
 
+If you're looking for a Brewfile, see our [Brewfile](https://github.com/sixarm/sixarm_brew_brewfile)
+
+
 ## Contents
 
 Simple scripts that install a lot of common software:
@@ -46,8 +49,8 @@ Thanks:
 ## Tracking
 
   * Package: sixarm_brew_install
-  * Version: 7.20.0
+  * Version: 7.22.0
   * Created: 2015-04-13
-  * Updated: 2017-01-09
+  * Updated: 2017-02-10
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
