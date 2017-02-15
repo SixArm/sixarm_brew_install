@@ -95,6 +95,10 @@ brew cask install postman
 # SourceTree graphic client for git
 brew cask install sourcetree
 
+# GitUp friendly Git interface and visualizer
+brew cask install gitup
+
+
 ##
 # Languages
 ##
