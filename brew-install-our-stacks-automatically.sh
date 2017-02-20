@@ -181,6 +181,7 @@ brew cask install docker
 
 # Vagrant creates and configures portable development environments.
 brew cask install vagrant
+brew cask install vagrant-manager
 
 # VirtualBox creates and configures portable development environments, by Oracle.
 brew cask install virtualbox
