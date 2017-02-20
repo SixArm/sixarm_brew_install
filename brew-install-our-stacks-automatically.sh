@@ -152,6 +152,9 @@ brew install siege
 brew install docker
 brew install boot2docker
 
+# Consul tool for discovering and configuring services
+brew install consul
+
 # NGINX web server, with Ruby passenger middleware.
 brew install nginx --with-passenger
 
