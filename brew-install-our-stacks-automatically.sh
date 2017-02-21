@@ -152,6 +152,12 @@ brew install siege
 brew install docker
 brew install boot2docker
 
+# Compose is a tool for defining and running multi-container Docker applications.
+brew install docker-compose
+
+# Docker Machine installs Docker Engine on virtual hosts, and manages the hosts.
+brew install docker-machine
+
 # Consul tool for discovering and configuring services
 brew install consul
 
