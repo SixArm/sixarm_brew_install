@@ -535,6 +535,10 @@ brew cask install testflight
 # Amazon Web Services (AWS) Command Line Interface (CLI)
 brew install awscli
 
+# AWS command line tools
+brew tap wallix/awless
+brew install awless
+
 # Heroku app hosting
 brew install heroku
 
