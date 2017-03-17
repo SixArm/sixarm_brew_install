@@ -106,6 +106,9 @@ brew cask install gitup
 # Apache Maven is a software project management and comprehension tool.
 brew install maven
 
+# Apache Spark is for analytics
+brew install apache-spark
+
 # Apache Top command
 brew install apachetop
 
