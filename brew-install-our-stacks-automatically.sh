@@ -561,6 +561,10 @@ brew cask install gimp
 # Inkscape vector-based image  editor, similar to Adobe Illustrator
 brew cask install inkscape; brew install inkscape
 
+# Shotcut movie editor
+brew cask install shotcut
+
+
 ##
 # Paid software
 #
