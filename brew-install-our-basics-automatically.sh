@@ -198,6 +198,9 @@ brew install cvs
 brew install git
 brew cask install git
 
+# Git Large File Storage
+brew install git-lfs
+
 # TBD
 brew install git-cola
 
