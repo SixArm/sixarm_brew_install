@@ -564,6 +564,8 @@ brew cask install inkscape; brew install inkscape
 # Shotcut movie editor
 brew cask install shotcut
 
+# Image optimizer
+brew cask imageoptim
 
 ##
 # Paid software
