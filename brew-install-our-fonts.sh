@@ -67,7 +67,6 @@ brew cask install font-armata
 brew cask install font-artifika
 brew cask install font-arvo
 brew cask install font-asap
-brew cask install font-asset
 brew cask install font-astloch
 brew cask install font-asul
 brew cask install font-atomic-age
