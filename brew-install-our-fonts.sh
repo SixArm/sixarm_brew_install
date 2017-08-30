@@ -80,7 +80,6 @@ brew cask install font-averia-sans-libre
 brew cask install font-averia-serif-libre
 brew cask install font-awesome-terminal-fonts
 brew cask install font-babelstone-han
-brew cask install font-babelstone-modern
 brew cask install font-bad-script
 brew cask install font-baloo
 brew cask install font-balthazar
