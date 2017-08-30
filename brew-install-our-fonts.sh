@@ -97,14 +97,12 @@ brew cask install font-berkshire-swash
 brew cask install font-bevan
 brew cask install font-bf-tiny-hand
 brew cask install font-bigelow-rules
-brew cask install font-bigshot-one
 brew cask install font-bilbo-swash-caps
 brew cask install font-bilbo
 brew cask install font-bitstream-vera
 brew cask install font-bitter
 brew cask install font-black-ops-one
 brew cask install font-blokk-neue
-brew cask install font-bokor
 brew cask install font-bonbon
 brew cask install font-boogaloo
 brew cask install font-bowlby-one-sc
@@ -154,16 +152,13 @@ brew cask install font-chau-philomene-one
 brew cask install font-chela-one
 brew cask install font-chelsea-market
 brew cask install font-chenla
-brew cask install font-cherry-cream-soda
 brew cask install font-cherry-swash
-brew cask install font-chewy
 brew cask install font-chicle
 brew cask install font-chivo
 brew cask install font-cinzel-decorative
 brew cask install font-cinzel
 brew cask install font-clear-sans
 brew cask install font-clicker-script
-brew cask install font-coda-caption
 brew cask install font-coda
 brew cask install font-code
 brew cask install font-code2000
@@ -174,13 +169,11 @@ brew cask install font-combo
 brew cask install font-comfortaa
 brew cask install font-comic-neue
 brew cask install font-comic-sans-ms
-brew cask install font-coming-soon
 brew cask install font-computer-modern
 brew cask install font-conakry
 brew cask install font-concert-one
 brew cask install font-condiment
 brew cask install font-consolas-for-powerline
-brew cask install font-constructium
 brew cask install font-content
 brew cask install font-contrail-one
 brew cask install font-convergence
@@ -193,12 +186,10 @@ brew cask install font-courier-prime
 brew cask install font-cousine
 brew cask install font-coustard
 brew cask install font-covered-by-your-grace
-brew cask install font-crafty-girls
 brew cask install font-creepster
 brew cask install font-crete-round
 brew cask install font-crimson-text
 brew cask install font-croissant-one
-brew cask install font-crushed
 brew cask install font-cuprum
 brew cask install font-cutive-mono
 brew cask install font-cutive
@@ -220,7 +211,6 @@ brew cask install font-denk-one
 brew cask install font-devicons
 brew cask install font-devonshire
 brew cask install font-dhyana
-brew cask install font-didact-gothic
 brew cask install font-digohweli-old-do
 brew cask install font-digohweli
 brew cask install font-diplomata-sc
@@ -269,7 +259,6 @@ brew cask install font-exo
 brew cask install font-exo2
 brew cask install font-expletus-sans
 brew cask install font-ezra-sil
-brew cask install font-fairfax
 brew cask install font-fantasque-sans-mono
 brew cask install font-fanwood-text
 brew cask install font-fascinate-inline
@@ -294,7 +283,6 @@ brew cask install font-flamenco
 brew cask install font-flavors
 brew cask install font-fondamento
 brew cask install font-fontawesome
-brew cask install font-fontdiner-swanky
 brew cask install font-forum
 brew cask install font-foundation-icons
 brew cask install font-francois-one
@@ -369,7 +357,6 @@ brew cask install font-hermit
 brew cask install font-herr-von-muellerhoff
 brew cask install font-hind
 brew cask install font-holtwood-one-sc
-brew cask install font-homemade-apple
 brew cask install font-homenaje
 brew cask install font-hyppolit
 brew cask install font-iceberg
@@ -402,7 +389,6 @@ brew cask install font-ionicons
 brew cask install font-iosevka
 brew cask install font-iranian-sans
 brew cask install font-iranian-serif
-brew cask install font-irish-grover
 brew cask install font-istok-web
 brew cask install font-italiana
 brew cask install font-italianno
@@ -420,9 +406,7 @@ brew cask install font-judson
 brew cask install font-julee
 brew cask install font-julius-sans-one
 brew cask install font-junge
-brew cask install font-junicode
 brew cask install font-jura
-brew cask install font-just-another-hand
 brew cask install font-just-me-again-down-here
 brew cask install font-kacstone
 brew cask install font-kalam
@@ -449,9 +433,7 @@ brew cask install font-knewave
 brew cask install font-koruri
 brew cask install font-kotta-one
 brew cask install font-koulen
-brew cask install font-kranky
 brew cask install font-kreon
-brew cask install font-kristi
 brew cask install font-krona-one
 brew cask install font-la-belle-aurore
 brew cask install font-laila
@@ -506,7 +488,6 @@ brew cask install font-lora
 brew cask install font-love-ya-like-a-sister
 brew cask install font-loved-by-the-king
 brew cask install font-lovers-quarrel
-brew cask install font-luckiest-guy
 brew cask install font-luculent
 brew cask install font-lusitana
 brew cask install font-lustria
@@ -514,7 +495,6 @@ brew cask install font-m-plus
 brew cask install font-macondo-swash-caps
 brew cask install font-macondo
 brew cask install font-magra
-brew cask install font-maiden-orange
 brew cask install font-mako
 brew cask install font-marcellus-sc
 brew cask install font-marcellus
@@ -724,14 +704,12 @@ brew cask install font-nova-flat
 brew cask install font-nova-mono
 brew cask install font-nova-oval
 brew cask install font-nova-round
-brew cask install font-nova-script
 brew cask install font-nova-slim
 brew cask install font-nova-square
 brew cask install font-numans
 brew cask install font-nunito
 brew cask install font-nyashi
 brew cask install font-ocra
-brew cask install font-octicons
 brew cask install font-odor-mean-chey
 brew cask install font-office-code-pro
 brew cask install font-offside
@@ -770,7 +748,6 @@ brew cask install font-pacifico
 brew cask install font-padauk
 brew cask install font-palemonas
 brew cask install font-paprika
-brew cask install font-parastoo
 brew cask install font-parisienne
 brew cask install font-passero-one
 brew cask install font-passion-one
@@ -842,7 +819,6 @@ brew cask install font-rancho
 brew cask install font-rationale
 brew cask install font-red-october
 brew cask install font-redacted
-brew cask install font-redressed
 brew cask install font-reenie-beanie
 brew cask install font-revalia
 brew cask install font-ribeye-marrow
@@ -856,7 +832,6 @@ brew cask install font-roboto-mono
 brew cask install font-roboto-slab
 brew cask install font-roboto
 brew cask install font-rochester
-brew cask install font-rock-salt
 brew cask install font-rokkitt
 brew cask install font-romanesco
 brew cask install font-ropa-sans
