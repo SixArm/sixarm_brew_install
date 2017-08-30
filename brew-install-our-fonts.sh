@@ -57,7 +57,6 @@ brew cask install font-anton
 brew cask install font-arapey
 brew cask install font-arbutus-slab
 brew cask install font-arbutus
-brew cask install font-architects-daughter
 brew cask install font-archivo-black
 brew cask install font-archivo-narrow
 brew cask install font-arial-black
