@@ -73,7 +73,6 @@ brew cask install font-atomic-age
 brew cask install font-aubrey
 brew cask install font-audiowide
 brew cask install font-autour-one
-brew cask install font-average-sans
 brew cask install font-average
 brew cask install font-averia-gruesa-libre
 brew cask install font-averia-libre
