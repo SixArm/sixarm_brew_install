@@ -88,7 +88,6 @@ brew cask install font-baron
 brew cask install font-basic
 brew cask install font-battambang
 brew cask install font-baumans
-brew cask install font-bayon
 brew cask install font-bebas-neue
 brew cask install font-belgrano
 brew cask install font-belleza
