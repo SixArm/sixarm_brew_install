@@ -4,7 +4,6 @@ brew cask install font-abel
 brew cask install font-aboriginal-sans
 brew cask install font-aboriginal-serif
 brew cask install font-abril-fatface
-brew cask install font-aclonica
 brew cask install font-acme
 brew cask install font-actor
 brew cask install font-adamina

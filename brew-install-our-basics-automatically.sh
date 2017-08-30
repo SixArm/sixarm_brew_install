@@ -188,6 +188,30 @@ brew install syncthing
 
 
 ##
+# Browsers
+##
+
+# Firefox web browser by Mozilla
+brew cask install firefox
+
+# Chrome web browser by Google
+brew cask install google-chrome
+
+# Vivaldi web browser
+brew cask install vivaldi
+
+##
+# Messengers
+##
+
+# Adium is an open source multi-protocol instant messaging client.
+brew cask install adium
+
+# WhatsApp is a widespread chat app, now owned by Facebook
+brew cask install whatsapp
+
+
+##
 # Version Control
 ##
 
@@ -566,9 +590,6 @@ brew install homebrew/dupes/zlib
 # then unpack it into the correct `/Applications` directory,
 # and possibly configure the app with typical settings.
 ##
-
-# Adium is an open source multi-protocol instant messaging client.
-brew cask install adium
 
 # TDB
 brew cask install adventure
