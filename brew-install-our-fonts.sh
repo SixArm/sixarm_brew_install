@@ -46,7 +46,6 @@ brew cask install font-andada
 brew cask install font-andagii
 brew cask install font-andale-mono
 brew cask install font-andika
-brew cask install font-angkor
 brew cask install font-anka-coder
 brew cask install font-annie-use-your-telescope
 brew cask install font-anonymice-powerline
