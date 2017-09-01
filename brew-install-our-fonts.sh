@@ -467,16 +467,6 @@ brew cask install font-linux-libertine
 brew cask install font-lisutzimu
 brew cask install font-lobster-two
 brew cask install font-lobster
-brew cask install font-lohit-assamese
-brew cask install font-lohit-bengali
-brew cask install font-lohit-devanagari
-brew cask install font-lohit-gujarati
-brew cask install font-lohit-kannada
-brew cask install font-lohit-malayalam
-brew cask install font-lohit-marathi
-brew cask install font-lohit-nepali
-brew cask install font-lohit-oriya
-brew cask install font-lohit-punjabi
 brew cask install font-lohit-tamil-classical
 brew cask install font-lohit-tamil
 brew cask install font-lohit-telugu
@@ -522,8 +512,6 @@ brew cask install font-merienda-one
 brew cask install font-merienda
 brew cask install font-merriweather-sans
 brew cask install font-merriweather
-brew cask install font-meslo-lg-for-powerline
-brew cask install font-metal-mania
 brew cask install font-metal
 brew cask install font-metamorphous
 brew cask install font-metrophobic
@@ -557,7 +545,6 @@ brew cask install font-monoton
 brew cask install font-monsieur-la-doulaise
 brew cask install font-montaga
 brew cask install font-montez
-brew cask install font-montserrat-alternates
 brew cask install font-montserrat-subrayada
 brew cask install font-montserrat
 brew cask install font-moul
@@ -817,7 +804,6 @@ brew cask install font-rammetto-one
 brew cask install font-ranchers
 brew cask install font-rancho
 brew cask install font-rationale
-brew cask install font-red-october
 brew cask install font-redacted
 brew cask install font-reenie-beanie
 brew cask install font-revalia
@@ -840,7 +826,6 @@ brew cask install font-rosarivo
 brew cask install font-rotinonhsonni-sans
 brew cask install font-rotinonhsonni-serif
 brew cask install font-rouge-script
-brew cask install font-rounded-m-plus
 brew cask install font-rozha-one
 brew cask install font-ruda
 brew cask install font-rufina
@@ -859,13 +844,11 @@ brew cask install font-salsa
 brew cask install font-samim
 brew cask install font-sanchez
 brew cask install font-sancreek
-brew cask install font-sansita-one
 brew cask install font-sarina
 brew cask install font-sarpanch
 brew cask install font-satisfy
 brew cask install font-scada
 brew cask install font-scheherazade
-brew cask install font-schoolbell
 brew cask install font-seaweed-script
 brew cask install font-seoulhangang
 brew cask install font-seoulhangangcondensed
@@ -883,16 +866,13 @@ brew cask install font-short-stack
 brew cask install font-siemreap
 brew cask install font-sigmar-one
 brew cask install font-signika-negative
-brew cask install font-signika
 brew cask install font-silent-lips
 brew cask install font-simonetta
 brew cask install font-sinkin-sans
 brew cask install font-sintony
 brew cask install font-sirin-stencil
 brew cask install font-six-caps
-brew cask install font-skola-sans
 brew cask install font-skranji
-brew cask install font-slackey
 brew cask install font-smokum
 brew cask install font-smythe
 brew cask install font-sniglet
@@ -909,7 +889,6 @@ brew cask install font-source-han-sans
 brew cask install font-source-sans-pro
 brew cask install font-source-serif-pro
 brew cask install font-space-mono
-brew cask install font-special-elite
 brew cask install font-spicy-rice
 brew cask install font-spinnaker
 brew cask install font-spirax
@@ -921,9 +900,7 @@ brew cask install font-stint-ultra-condensed
 brew cask install font-stint-ultra-expanded
 brew cask install font-stoke
 brew cask install font-strait
-brew cask install font-stroke
 brew cask install font-sue-ellen-francisco
-brew cask install font-sunshiney
 brew cask install font-supermercado-one
 brew cask install font-swanky-and-moo-moo
 brew cask install font-symbola
@@ -966,7 +943,6 @@ brew cask install font-tulpen-one
 brew cask install font-twitter-color-emoji
 brew cask install font-ubuntu-mono-derivative-powerline
 brew cask install font-ubuntu
-brew cask install font-ultra
 brew cask install font-uncial-antiqua
 brew cask install font-underdog
 brew cask install font-unica-one
