@@ -291,23 +291,34 @@ brew cask install atom
 
 
 ##
-# Tools
+# Search tools for command line and text files
 ##
 
-# Ansible is a simple way to automate apps and IT infrastructure.
-brew install ansible
-
 # ripgrep is text search; we prefer it over grep, ag, git grep, ucg, pt, sift.
-brew install https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/brew/ripgrep.rb
-
-# jq is a lightweight and flexible command-line JSON processor.
-brew install jq
+brew install ripgrep
 
 # ag is "the silver searcher" search tool; compare ripgrep.
 brew install ag
 
 # sift is like grep, plus faster and with more features; compare ripgrep.
 brew install sift
+
+# Universal Code Grep is good for searching large bodies of source code
+brew install ucg
+
+# pt is "the platinum searcher" search tool; aims to be better than "ag".
+brew install pt
+
+
+##
+# Tools
+##
+
+# Ansible is a simple way to automate apps and IT infrastructure.
+brew install ansible
+
+# jq is a lightweight and flexible command-line JSON processor.
+brew install jq
 
 # TBD
 brew install gawk
