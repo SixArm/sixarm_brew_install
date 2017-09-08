@@ -43,9 +43,8 @@ brew cask install vim
 # Our favorite web browser
 brew cask install firefox
 
-# Our favorite Virtual Private Network apps (VPNs)
+# Our favorite Virtual Private Network (VPN)
 brew cask install expressvpn
-brew cask install nordvpn
 
 
 ##
@@ -182,6 +181,9 @@ brew install curl
 
 # HTTrack is a free and easy-to-use offline browser utility.
 brew install httrack
+
+# Googler is a command line interface tool to search Google.
+brew install googler
 
 # Wget is a free software package for retrieving files using HTTP and FTP.
 brew install wget
