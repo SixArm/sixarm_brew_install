@@ -403,6 +403,9 @@ brew install elixir
 # Erlang programming language for scalable high-availability systems.
 brew install erlang
 
+## Yet Another Web Server
+brew install yaws
+
 ## Go
 
 # Go programming language by Google; compare `C`.

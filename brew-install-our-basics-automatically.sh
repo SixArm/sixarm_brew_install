@@ -114,6 +114,9 @@ brew install pssh
 brew install pcre
 brew install pcre++
 
+# GNU parallel runs shell tasks in parallel
+brew install parallel
+
 
 ##
 # Terminals
@@ -199,6 +202,10 @@ brew cask install google-chrome
 
 # Vivaldi web browser
 brew cask install vivaldi
+
+# The Onion Router
+brew install tor
+
 
 ##
 # Messengers
@@ -1490,7 +1497,6 @@ brew cask install unison
 # brew install par
 # brew install par2
 # brew install par2tbb
-# brew install parallel
 # brew install pari
 # brew install parmetis
 # brew install parrot
@@ -1957,7 +1963,6 @@ brew cask install unison
 # brew install tokyo-cabinet
 # brew install tokyo-dystopia
 # brew install tokyo-tyrant
-# brew install tomcat
 # brew install topgit
 # brew install tophat
 # brew install tor
@@ -2137,7 +2142,6 @@ brew cask install unison
 # brew install yara
 # brew install yarp
 # brew install yasm
-# brew install yaws
 # brew install yaz
 # brew install yazpp
 # brew install yconalyzer
@@ -2156,7 +2160,6 @@ brew cask install unison
 # brew install zlib
 # brew install znc
 # brew install zookeeper
-# brew install zsh
 # brew install zsh-completions
 # brew install zsh-lovers
 # brew install zssh
