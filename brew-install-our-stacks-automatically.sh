@@ -88,6 +88,9 @@ brew cask install charles
 # Postman HTTP API monitoring tool.
 brew cask install postman
 
+# Insomnia HTTP REST client for developers. 
+brew cask install insomnia
+
 ##
 # Versioning
 ##
