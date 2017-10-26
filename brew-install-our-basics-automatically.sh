@@ -116,6 +116,8 @@ brew install pcre++
 # GNU parallel runs shell tasks in parallel
 brew install parallel
 
+# FZF fuzzy finder
+brew install fzf; /usr/local/opt/fzf/install
 
 ##
 # Terminals
