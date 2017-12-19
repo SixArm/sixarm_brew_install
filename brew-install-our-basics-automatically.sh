@@ -232,6 +232,7 @@ brew install cvs
 # Git is a free and open source distributed version control system.
 brew install git
 brew cask install git
+brew cask install gitup
 
 # Git Large File Storage
 brew install git-lfs
@@ -484,6 +485,9 @@ brew cask install discord
 
 # Slack chat client
 brew cask install slack
+
+# Signal encrypted messaging
+brew cask install signal
 
 
 ##
