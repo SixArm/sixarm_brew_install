@@ -233,6 +233,9 @@ brew cask install macvin
 brew cask install sublime
 brew cask install sublime-text
 
+# Visual Studio Code by Microsoft
+brew cask install visual-studio-code
+
 ##
 # Fonts
 ##
