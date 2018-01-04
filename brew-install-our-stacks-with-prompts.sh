@@ -32,6 +32,11 @@ brew cask install wireshark
 # Netbeans Java IDE
 brew cask install netbeans
 
+# Java
+brew cask install caskroom/versions/java9
+brew cask install caskroom/versions/java8
+brew cask install caskroom/versions/java7
+
 # R statistics programming language
 brew cask install r
 
