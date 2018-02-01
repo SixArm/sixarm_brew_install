@@ -43,6 +43,9 @@ brew cask install vim
 # Our favorite web browser
 brew cask install firefox
 
+# Our favorite messenger
+brew cask install signal
+
 # Our favorite Virtual Private Network (VPN)
 brew cask install expressvpn
 
