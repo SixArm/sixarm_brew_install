@@ -453,6 +453,9 @@ brew install android-sdk
 # Node.js is a JavaScript platform for building fast, scalable network app.
 brew install node
 
+# Yarn is a JavaScript package manager for fast, reliable, and secure dependency management. 
+brew install yarm
+
 # PhantomJS is a headless WebKit scriptable with a JavaScript API.
 brew install phantomjs
 
