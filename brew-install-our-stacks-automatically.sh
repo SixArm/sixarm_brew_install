@@ -468,6 +468,9 @@ brew install jo
 # JID JSON explorer
 brew tap simeji/jid && brew install jid
 
+# JP is a command line JSON parser using JMES
+brew tap jmespath/jmespath && brew install jp
+
 ## Perl
 
 # Perl programming language, esp. for systems administration.
