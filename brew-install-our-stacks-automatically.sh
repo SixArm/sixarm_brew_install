@@ -101,6 +101,9 @@ brew cask install sourcetree
 # GitUp friendly Git interface and visualizer
 brew cask install gitup
 
+# Meld visual diff merge tool
+brew cask install meld
+
 
 ##
 # Languages
