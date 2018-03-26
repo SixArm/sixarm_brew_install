@@ -448,8 +448,15 @@ brew install tomcat
 # Glassfish application server.
 brew install glassfish
 
-# Android Software Development Kit (SDK)
-brew install android-sdk
+# Android Software Development Kit (SDK) and Native Development Kit (NDK).
+#
+# Typically we configure our systems this way:
+#
+#     export ANDROID_SDK=/usr/local/Cellar/android-sdk/r17
+#     export ANDROID_NDK=/usr/local/Cellar/android-ndk/r7b
+#
+brew cask install android-sdk
+brew cask install android-ndk
 
 ## JavaScript
 
