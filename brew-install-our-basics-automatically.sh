@@ -651,7 +651,7 @@ brew cask install atext
 brew cask install audacity
 
 # TDB
-brew cask install backblaze-downloader
+brew cask install backblaze
 
 # TDB
 brew cask install backuploupe
