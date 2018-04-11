@@ -122,6 +122,9 @@ brew install parallel
 # FZF fuzzy finder
 brew install fzf; /usr/local/opt/fzf/install
 
+# Angle grinder: slice and dice log files on the command line
+brew install agrind-bin
+
 ##
 # Terminals
 #
