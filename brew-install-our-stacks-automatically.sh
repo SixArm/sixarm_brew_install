@@ -448,6 +448,8 @@ brew install tomcat
 # Glassfish application server.
 brew install glassfish
 
+## Android
+
 # Android Software Development Kit (SDK) and Native Development Kit (NDK).
 #
 # Typically we configure our systems this way:
@@ -457,6 +459,15 @@ brew install glassfish
 #
 brew cask install android-sdk
 brew cask install android-ndk
+
+# Apache Ant automates software build processes.
+brew install ant
+
+# Apache Maven is a build automation tool used primarily for Java projects. 
+brew install maven
+
+# Gradle general-purpose build tool.
+brew install gradle
 
 ## JavaScript
 
