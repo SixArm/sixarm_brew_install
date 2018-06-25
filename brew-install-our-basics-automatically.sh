@@ -870,6 +870,10 @@ brew cask install silverlight
 # https://evernote.com/products/skitch
 brew cask install skitch
 
+# LICEcap: simple animated screen captures
+# https://www.cockos.com/licecap/
+brew cask install licecap
+
 # TBD
 brew cask install sleep-monitor
 
