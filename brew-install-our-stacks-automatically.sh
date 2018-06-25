@@ -139,6 +139,9 @@ brew cask install tunnelblick
 # Networking
 ##
 
+# HTTPie: Modern command line HTTP client
+brew install httpie
+
 # Wireshark network monitoring, with the QT GUI.
 brew link cmake; brew cask install wireshark --with-qt
 
@@ -454,8 +457,9 @@ brew install glassfish
 #
 # Typically we configure our systems this way:
 #
-#     export ANDROID_SDK=/usr/local/Cellar/android-sdk/r17
-#     export ANDROID_NDK=/usr/local/Cellar/android-ndk/r7b
+#     export ANDROID_SDK="/usr/local/Cellar/android-sdk/r17"
+#     export ANDROID_NDK="/usr/local/Cellar/android-ndk/r7b"
+#     export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
 #
 brew cask install android-sdk
 brew cask install android-ndk
