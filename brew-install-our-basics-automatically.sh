@@ -201,6 +201,14 @@ brew install syncthing
 
 
 ##
+# Windowers
+##
+
+# Spectacle: Window control with simple and customizable keyboard shortcuts
+brew cask install spectacle
+
+
+##
 # Browsers
 ##
 
