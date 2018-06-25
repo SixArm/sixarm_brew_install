@@ -866,7 +866,8 @@ brew cask install shortcat
 # Silverlight video player by Microsoft.
 brew cask install silverlight
 
-# TBD
+# Skitch: Evernote annotation
+# https://evernote.com/products/skitch
 brew cask install skitch
 
 # TBD
