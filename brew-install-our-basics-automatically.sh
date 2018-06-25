@@ -478,6 +478,10 @@ brew install jasper
 # LibreOffice is a large editor for text, spreadsheets, diagrams.
 brew cask install libreoffice
 
+# Microsoft Office
+# https://www.office.com/
+brew cask install microsoft-office
+
 # OmniFocus task manager (fee).
 brew cask install omnifocus
 
