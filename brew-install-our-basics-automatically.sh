@@ -208,6 +208,10 @@ brew install syncthing
 # https://www.spectacleapp.com/
 brew cask install spectacle
 
+# TermHere: place a “New Terminal Here” button in the Finder toolbar
+# https://hbang.ws/apps/termhere/
+brew cask install termhere
+
 
 ##
 # Browsers
