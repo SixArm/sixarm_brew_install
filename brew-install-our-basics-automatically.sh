@@ -205,6 +205,7 @@ brew install syncthing
 ##
 
 # Spectacle: Window control with simple and customizable keyboard shortcuts
+# https://www.spectacleapp.com/
 brew cask install spectacle
 
 
@@ -691,7 +692,8 @@ brew cask install brain-workshop
 # TDB
 brew cask install cactus
 
-# TDB
+# Prevent the system from sleeping, dimming, or starting screen savers
+# http://lightheadsw.com/caffeine/
 brew cask install caffeine
 
 # TDB
