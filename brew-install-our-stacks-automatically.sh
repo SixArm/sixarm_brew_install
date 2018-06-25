@@ -204,6 +204,9 @@ brew cask install vagrant-manager
 # VirtualBox creates and configures portable development environments, by Oracle.
 brew cask install virtualbox
 
+# Parallels runs alternative operating systems
+brew cask install parallels
+
 # Terraform common configuration to launch infrastructure.
 brew install terraform
 
