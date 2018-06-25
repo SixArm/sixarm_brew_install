@@ -31,6 +31,15 @@ brew cask install adobe-air
 brew cask install adobe-reader
 
 
+##
+# Productivity
+##
+
+# Microsoft Office
+# https://www.office.com/
+brew cask install microsoft-office
+
+
 ## Misc
 
 brew cask install flip4mac
