@@ -313,6 +313,9 @@ brew install zeromq
 # Sphinx search engine.
 brew link cmake; brew install mysql; brew install postgresql; brew install sphinx
 
+# GraphiQL: a lightweight Electron-based app wrapper around GraphiQL
+brew cask install graphiql
+
 ## Database managers
 
 # MySQL Workbench database editor.
