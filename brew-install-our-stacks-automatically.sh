@@ -101,6 +101,10 @@ brew cask install sourcetree
 # GitUp friendly Git interface and visualizer
 brew cask install gitup
 
+# GitHub Desktop friendly Git GUI
+# https://desktop.github.com/
+brew cask install github
+
 # Meld visual diff merge tool
 brew cask install meld
 
