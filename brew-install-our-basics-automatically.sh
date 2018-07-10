@@ -116,8 +116,8 @@ brew install pssh
 brew install pcre
 brew install pcre++
 
-# GNU parallel runs shell tasks in parallel
-brew install parallel
+# GNU moreutils, including `parallel`, `sponge`, etc.
+brew install moreutils
 
 # FZF fuzzy finder
 brew install fzf; /usr/local/opt/fzf/install
