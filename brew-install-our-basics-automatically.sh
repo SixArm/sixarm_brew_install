@@ -46,6 +46,9 @@ brew cask install firefox
 # Our favorite messenger
 brew cask install signal
 
+# Our favorite pager
+brew install bat
+
 # Our favorite Virtual Private Network (VPN)
 brew cask install expressvpn
 
