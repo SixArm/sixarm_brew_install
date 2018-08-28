@@ -143,6 +143,9 @@ brew cask install tunnelblick
 # Networking
 ##
 
+# prettyping: ping with colorful output and progress bars
+brew install prettyping
+
 # HTTPie: Modern command line HTTP client
 brew install httpie
 
