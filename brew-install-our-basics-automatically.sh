@@ -351,6 +351,9 @@ brew install pt
 # Ansible is a simple way to automate apps and IT infrastructure.
 brew install ansible
 
+# xsv is for CSV file parsing, and is fast, full featured, and flexible.
+brew install xsv
+
 # jq is a lightweight and flexible command-line JSON processor.
 brew install jq
 
