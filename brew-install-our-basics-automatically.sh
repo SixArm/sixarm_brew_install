@@ -354,6 +354,9 @@ brew install ansible
 # xsv is for CSV file parsing, and is fast, full featured, and flexible.
 brew install xsv
 
+# Tad is a CSV viewer with feature for pivot, search, etc.
+brew cask install tad
+
 # jq is a lightweight and flexible command-line JSON processor.
 brew install jq
 
