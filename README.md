@@ -39,6 +39,17 @@ To learn what a specific formula does, there's a URL for each formula, such as:
 
   * http://brewformulas.org/foo
 
+
+## Startup
+
+We start some services during startup:
+
+    brew services start postgresql
+    brew services start elasticsearch
+    brew services start logstash
+    brew services start kibana
+
+
 ## See Also
 
 Thanks:
@@ -49,8 +60,8 @@ Thanks:
 ## Tracking
 
   * Package: sixarm_brew_install
-  * Version: 7.22.0
+  * Version: 7.23.0
   * Created: 2015-04-13
-  * Updated: 2017-02-10
+  * Updated: 2018-10-26
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)

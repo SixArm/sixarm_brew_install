@@ -341,6 +341,19 @@ brew cask install toad
 brew cask install valentina-studio
 
 ##
+# Data analytics
+##
+
+# Elasticsearch is a real-time, distributed storage, search, and analytics engine.
+brew instal elasticsearch
+
+# Logstash helps parse, enrich, transform, and buffer data from a variety of sources.
+brew instal logstash
+
+# Kibana is an open source analytics and visualization platform designed to work with Elasticsearch.
+brew instal kibana
+
+##
 # Markup Tooling
 #
 # This section installs markup tooling.
