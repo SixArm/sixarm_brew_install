@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: brew install commands for our favorite formulas
+message: >-
+  If you use this work and you want to cite it,
+  then you can use the metadata from this file.
+type: software
+authors:
+  - given-names: Joel Parker
+    family-names: Henderson
+    email: joel@joelparkerhenderson.com
+    affiliation: joelparkerhenderson.com
+    orcid: 'https://orcid.org/0009-0000-4681-282X'
+identifiers:
+  - type: url
+    value: 'https://github.com/SixArm/sixarm_brew_install/'
+    description: brew install commands for our favorite formulas
+repository-code: 'https://github.com/SixArm/sixarm_brew_install/'
+abstract: >-
+  brew install commands for our favorite formulas
+license: See license file
